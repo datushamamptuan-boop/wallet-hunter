@@ -3,9 +3,10 @@ name: Wallet Hunter
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7,22,37,52 * * * *'
+    - cron: "7,22,37,52 * * * *"
   push:
-    branches: [main]
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -17,49 +18,60 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          python-version: '3.12'
+          fetch-depth: 0
 
-      - run: pip install -r requirements.txt
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
 
-      - name: Discover wallets
-        env:
-          SOLANA_RPC_URL: ${{ vars.SOLANA_RPC_URL }}
-        run: python src/discover.py
-
-      - name: Analyze wallets
-        env:
-          SOLANA_RPC_URL: ${{ vars.SOLANA_RPC_URL }}
-          HELIUS_API_KEY: ${{ secrets.HELIUS_API_KEY }}
-        run: python src/analyze.py
-
-      - name: Build app
-        run: python src/dashboard.py
-
-            - name: Commit data
+      - name: Install dependencies
+        shell: bash
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/ docs/
-          git diff --cached --quiet || git commit -m 'Update wallet research data'
-          git pull --rebase origin main
-          git push
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
 
-  pages:
-    needs: analyze
-    runs-on: ubuntu-latest
+      - name: Run wallet analysis
+        shell: bash
+        run: |
+          if [ -f wallet_hunter.py ]; then
+            python wallet_hunter.py
+          elif [ -f main.py ]; then
+            python main.py
+          elif [ -f scripts/wallet_hunter.py ]; then
+            python scripts/wallet_hunter.py
+          else
+            echo "ERROR: Could not find wallet_hunter.py, main.py, or scripts/wallet_hunter.py"
+            exit 1
+          fi
 
-    steps:
-      - uses: actions/checkout@v4
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
 
-      - uses: actions/configure-pages@v5
-
-      - uses: actions/upload-pages-artifact@v3
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: './docs'
+          path: .
 
-      - id: deployment
+      - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
+
+      - name: Commit generated results
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+          else
+            git commit -m "Update wallet analysis"
+            git push
+          fi
