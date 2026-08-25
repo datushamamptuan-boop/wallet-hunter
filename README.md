@@ -30,3 +30,7 @@ Open the Pages URL in Chrome/Edge/Safari. Use the browser's **Install app / Add 
 This is a research tool, not a guaranteed profitable-wallet detector. Realized PnL is conservative and incomplete: swaps paid/settled in stablecoins, transfers, bridges, aggregator descriptions that cannot be parsed, and positions without a clean round trip are excluded. Do not use the score as financial advice or as proof that a wallet will remain profitable.
 
 No seed phrases, private keys, or automatic trade execution are used.
+
+
+### Deployment note
+The Pages deployment is performed from the same workflow run that generates `docs/`, so the live dashboard receives the newly generated data immediately. The service worker uses network-first behavior for the dashboard page to avoid stale cached results.
