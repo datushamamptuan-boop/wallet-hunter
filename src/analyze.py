@@ -17,7 +17,9 @@ OUT = ROOT / "data/rankings.json"
 HELIUS_KEY = os.getenv("HELIUS_API_KEY", "").strip()
 HELIUS_BASE = "https://api.helius.xyz/v0/addresses/{address}/transactions"
 
-
+# Assets treated as quote/cash assets.
+# SOL is included because the dashboard's PnL field is still named
+# realized_pnl_sol for compatibility with the existing dashboard.
 STABLES = {"SOL", "USDC", "USDT"}
 
 
@@ -36,6 +38,7 @@ def get_amount(item):
     if not isinstance(item, dict):
         return 0.0
 
+    # Helius can expose amounts in several shapes.
     for key in ("tokenAmount", "amount", "rawTokenAmount"):
         value = item.get(key)
 
@@ -43,6 +46,7 @@ def get_amount(item):
             value = (
                 value.get("tokenAmount")
                 or value.get("amount")
+                or value.get("uiAmount")
             )
 
         try:
@@ -64,14 +68,39 @@ def get_symbol(item):
     )
 
 
+def normalize_asset(item):
+    """
+    Return a usable asset identifier.
+
+    Prefer mint addresses for tokens because symbols are not unique.
+    Keep SOL / USDC / USDT as symbols because they are our quote assets.
+    """
+    symbol = get_symbol(item)
+    mint = get_asset_mint(item)
+
+    if symbol:
+        symbol = str(symbol).upper()
+
+        if symbol in STABLES:
+            return symbol
+
+    if mint:
+        return str(mint)
+
+    if symbol:
+        return str(symbol).upper()
+
+    return None
+
+
 def parse_description(description):
     """
-    Backup parser for Helius descriptions.
+    Backup parser for common Helius descriptions.
 
-    Handles common forms such as:
-    'Swapped 1.2 SOL for 500 TOKEN'
+    Examples:
+      Swapped 1.2 SOL for 500 TOKEN
+      Swapped 33.5 USDT for 323 TOKEN
     """
-
     if not description:
         return None
 
@@ -91,13 +120,13 @@ def parse_description(description):
             continue
 
         give = re.search(
-            r"([0-9][0-9,]*(?:\.[0-9]+)?)\s*([A-Z0-9]{2,12})",
+            r"([0-9][0-9,]*(?:\.[0-9]+)?)\s*([A-Z0-9]{2,20})",
             match.group(1),
             re.IGNORECASE,
         )
 
         receive = re.search(
-            r"([0-9][0-9,]*(?:\.[0-9]+)?)\s*([A-Z0-9]{2,12})",
+            r"([0-9][0-9,]*(?:\.[0-9]+)?)\s*([A-Z0-9]{2,20})",
             match.group(2),
             re.IGNORECASE,
         )
@@ -112,6 +141,7 @@ def parse_description(description):
                     receive.group(1).replace(",", "")
                 ),
                 "received_asset": receive.group(2).upper(),
+                "method": "description",
             }
 
     return None
@@ -160,44 +190,87 @@ def helius_history(address, limit):
 
 def decode_swap(tx):
     """
-    Try structured Helius swap fields first.
+    Decode a Helius SWAP transaction.
 
-    If those aren't available, fall back to the
-    transaction description.
+    The old implementation blindly selected tokenInputs[0] and
+    tokenOutputs[0]. This version examines all entries and prefers
+    quote/token pairs that make sense for a wallet trade.
     """
 
     token_inputs = tx.get("tokenInputs") or []
     token_outputs = tx.get("tokenOutputs") or []
 
-    if token_inputs and token_outputs:
-        spent = token_inputs[0]
-        received = token_outputs[0]
+    inputs = []
+    outputs = []
 
-        spent_asset = (
-            get_symbol(spent)
-            or get_asset_mint(spent)
-        )
+    for item in token_inputs:
+        amount = get_amount(item)
+        asset = normalize_asset(item)
 
-        received_asset = (
-            get_symbol(received)
-            or get_asset_mint(received)
-        )
+        if asset and amount > 0:
+            inputs.append({
+                "asset": asset,
+                "amount": amount,
+                "symbol": get_symbol(item),
+                "mint": get_asset_mint(item),
+            })
 
-        spent_amount = get_amount(spent)
-        received_amount = get_amount(received)
+    for item in token_outputs:
+        amount = get_amount(item)
+        asset = normalize_asset(item)
 
-        if (
-            spent_asset
-            and received_asset
-            and spent_amount > 0
-            and received_amount > 0
-        ):
+        if asset and amount > 0:
+            outputs.append({
+                "asset": asset,
+                "amount": amount,
+                "symbol": get_symbol(item),
+                "mint": get_asset_mint(item),
+            })
+
+    if inputs and outputs:
+
+        # Prefer quote -> token for BUY.
+        for spent in inputs:
+            if spent["asset"] not in STABLES:
+                continue
+
+            for received in outputs:
+                if received["asset"] in STABLES:
+                    continue
+
+                return {
+                    "spent_amount": spent["amount"],
+                    "spent_asset": spent["asset"],
+                    "received_amount": received["amount"],
+                    "received_asset": received["asset"],
+                    "method": "structured",
+                }
+
+        # Prefer token -> quote for SELL.
+        for spent in inputs:
+            if spent["asset"] in STABLES:
+                continue
+
+            for received in outputs:
+                if received["asset"] not in STABLES:
+                    continue
+
+                return {
+                    "spent_amount": spent["amount"],
+                    "spent_asset": spent["asset"],
+                    "received_amount": received["amount"],
+                    "received_asset": received["asset"],
+                    "method": "structured",
+                }
+
+        # Generic fallback if neither side is a known quote asset.
+        if len(inputs) == 1 and len(outputs) == 1:
             return {
-                "spent_amount": spent_amount,
-                "spent_asset": str(spent_asset).upper(),
-                "received_amount": received_amount,
-                "received_asset": str(received_asset).upper(),
-                "method": "structured",
+                "spent_amount": inputs[0]["amount"],
+                "spent_asset": inputs[0]["asset"],
+                "received_amount": outputs[0]["amount"],
+                "received_asset": outputs[0]["asset"],
+                "method": "structured-generic",
             }
 
     parsed = parse_description(
@@ -205,7 +278,6 @@ def decode_swap(tx):
     )
 
     if parsed:
-        parsed["method"] = "description"
         return parsed
 
     return None
@@ -223,14 +295,18 @@ def analyze_helius(address, limit):
     buys = 0
     sells = 0
 
+    # Kept in the existing field's units for dashboard compatibility.
     pnl = 0.0
 
+    # Track positions by asset identifier.
     open_qty = defaultdict(float)
     open_cost = defaultdict(float)
 
+    # Track the quote currency used for each position.
+    open_quote = {}
+
     wins = 0
     losses = 0
-
     trades = []
 
     for tx in reversed(swaps):
@@ -245,8 +321,9 @@ def analyze_helius(address, limit):
         received_amount = swap["received_amount"]
         received_asset = swap["received_asset"]
 
-        # BUY:
-        # SOL / USDC / USDT -> token
+        # ---------------------------------------------------------
+        # BUY: SOL / USDC / USDT -> token
+        # ---------------------------------------------------------
         if (
             spent_asset in STABLES
             and received_asset not in STABLES
@@ -258,6 +335,9 @@ def analyze_helius(address, limit):
             open_qty[token] += received_amount
             open_cost[token] += spent_amount
 
+            # Remember which quote currency bought this position.
+            open_quote[token] = spent_asset
+
             trades.append({
                 "signature": tx.get("signature"),
                 "side": "BUY",
@@ -268,8 +348,9 @@ def analyze_helius(address, limit):
                 "timestamp": tx.get("timestamp"),
             })
 
-        # SELL:
-        # token -> SOL / USDC / USDT
+        # ---------------------------------------------------------
+        # SELL: token -> SOL / USDC / USDT
+        # ---------------------------------------------------------
         elif (
             spent_asset not in STABLES
             and received_asset in STABLES
@@ -280,6 +361,7 @@ def analyze_helius(address, limit):
             qty_sold = spent_amount
 
             if open_qty[token] > 0:
+
                 matched_qty = min(
                     qty_sold,
                     open_qty[token],
@@ -292,15 +374,23 @@ def analyze_helius(address, limit):
 
                 cost_basis = avg_cost * matched_qty
 
-                # We calculate realized PnL when
-                # the proceeds are in SOL.
-                if received_asset == "SOL":
+                # Only compare a sell to its matching quote currency.
+                quote = open_quote.get(token)
+
+                if quote == received_asset:
                     profit = (
                         received_amount
                         - cost_basis
                     )
 
-                    pnl += profit
+                    # For SOL trades this is already SOL PnL.
+                    #
+                    # For USDC/USDT trades, the value is in that
+                    # quote currency. We still use it to determine
+                    # win/loss, but only add it to realized_pnl_sol
+                    # when the quote is SOL.
+                    if received_asset == "SOL":
+                        pnl += profit
 
                     if profit > 0:
                         wins += 1
@@ -316,6 +406,9 @@ def analyze_helius(address, limit):
                     0,
                     open_cost[token] - cost_basis,
                 )
+
+                if open_qty[token] <= 0:
+                    open_quote.pop(token, None)
 
             trades.append({
                 "signature": tx.get("signature"),
@@ -384,8 +477,9 @@ def analyze_helius(address, limit):
         "data_source": "Helius Enhanced Transactions",
         "trades": trades[-50:],
         "note": (
-            "PnL is realized SOL PnL from "
-            "successfully decoded swaps."
+            "PnL is realized SOL PnL. "
+            "Win rate includes successfully matched "
+            "SOL/USDC/USDT closed trades."
         ),
     }
 
