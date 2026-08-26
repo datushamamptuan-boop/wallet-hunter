@@ -4,8 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '7,22,37,52 * * * *'
-  push:
-    branches: [main]
 
 permissions:
   contents: write
@@ -17,29 +15,31 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.11'
 
-      - run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
 
       - name: Discover wallets
-        env:
-          SOLANA_RPC_URL: ${{ vars.SOLANA_RPC_URL }}
-        run: python src/discover.py
+        run: |
+          python src/discover.py
 
       - name: Analyze wallets
-        env:
-          SOLANA_RPC_URL: ${{ vars.SOLANA_RPC_URL }}
-          HELIUS_API_KEY: ${{ secrets.HELIUS_API_KEY }}
-        run: python src/analyze.py
+        run: |
+          python src/analyze.py
 
-      - name: Build app
-        run: python src/dashboard.py
+      - name: Build dashboard
+        run: |
+          python src/dashboard.py
 
       - name: Commit data
         run: |
@@ -55,23 +55,28 @@ jobs:
 
           git commit -m 'Update wallet research data'
 
-          git fetch origin main
-          git rebase origin/main
+          git pull --rebase -X theirs origin main
 
-          git push origin HEAD:main
+          git push
 
-  pages:
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs
+
+  deploy:
     needs: analyze
     runs-on: ubuntu-latest
 
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/configure-pages@v5
-
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: './docs'
-
-      - id: deployment
+      - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
