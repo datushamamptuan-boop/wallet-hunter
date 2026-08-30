@@ -1,6 +1,1196 @@
 {
-  "generated_at": 1788085666,
+  "generated_at": 1788086593,
   "wallets": [
+    {
+      "address": "Bn1ZVmhRKjn51m5b8JJNnU8w6PepiPA4ojfMd4Aq6dX1",
+      "research_score": 93.2,
+      "transactions_analyzed": 40,
+      "swap_count": 33,
+      "buy_events": 10,
+      "sell_events": 16,
+      "realized_pnl_sol": 31.061318,
+      "closed_trades": 11,
+      "wins": 11,
+      "losses": 0,
+      "win_rate": 100.0,
+      "data_source": "Helius Enhanced Transactions",
+      "trades": [
+        {
+          "signature": "4yRBcWjrHVSZYgNDqihHhRz78wCw8WPrjwyb8EGPHzrxtPdZjKteEvfsyfMdrtS7prUkTjYoeAgeVSmYe7jDM5Qd",
+          "side": "SELL",
+          "asset": "HEPNAWCNJTBKK1VI5KRT",
+          "qty": 3000000.0,
+          "proceeds": 5.538016796,
+          "proceeds_asset": "SOL",
+          "timestamp": 1783661972
+        },
+        {
+          "signature": "3w5Ye7Tdw3x59sKkJEU8aZvyZRQVxsiZAzzrzLGxwFbaoa1oF5KnjCDQJVLeEDKGgcNyqMDMLSwFEwcfeNJsMYzU",
+          "side": "SELL",
+          "asset": "HEPNAWCNJTBKK1VI5KRT",
+          "qty": 2129075.648634,
+          "proceeds": 3.747366246,
+          "proceeds_asset": "SOL",
+          "timestamp": 1783662007
+        },
+        {
+          "signature": "3u3RkcotCP7a8B9hYWBpbe3bSE9gX4mgaPwqqEjFG554DksQYBkvaLn7ktfQpyGUW26YJobwVLj1EtMxXx1BZKYN",
+          "side": "BUY",
+          "asset": "7NCMKMRXPBVCWPCS9SSQ",
+          "qty": 11231273.685911,
+          "cost": 0.002290198,
+          "cost_asset": "SOL",
+          "timestamp": 1783662027
+        },
+        {
+          "signature": "4MNgUhRHLTQ83VzWRs1P6wSXPtM3nYhSgf1X2WRpBkBK7SaLx4xGbS8vjr6tNj6FC8ctWMNbkCP6zhUdLdfEbUuU",
+          "side": "SELL",
+          "asset": "7NCMKMRXPBVCWPCS9SSQ",
+          "qty": 5000000.0,
+          "proceeds": 4.337840755,
+          "proceeds_asset": "SOL",
+          "timestamp": 1783663031
+        },
+        {
+          "signature": "5aLSamZBJGtg1cJLTonHfdvcJ8oUzgoRj7QgiVrijtWKdLsN6VrTGE5Wvyf6oRA21XKtgi86tB5HGVUDecvJYUz6",
+          "side": "SELL",
+          "asset": "7NCMKMRXPBVCWPCS9SSQ",
+          "qty": 6231273.685911,
+          "proceeds": 4.605859912,
+          "proceeds_asset": "SOL",
+          "timestamp": 1783663793
+        },
+        {
+          "signature": "5mynuV6yLSMvbZWS9LcUrvuDghpprjRTXiqvHXFcFjBWrXBW17Vvbc8Q4AB6LR6HogTRLCkQNYyHzW2iStjQnxFb",
+          "side": "BUY",
+          "asset": "HEPNAWCNJTBKK1VI5KRT",
+          "qty": 5120251.595601,
+          "cost": 0.002206146,
+          "cost_asset": "SOL",
+          "timestamp": 1783673114
+        },
+        {
+          "signature": "4MurUK73xd2bvub6GLfVhFvjdYoQma8Z4EsZv1CSAsXTWuGz4jwRmi5QvDweSB7zqVL3AoUFVRzSvj2bwMR9zCqw",
+          "side": "SELL",
+          "asset": "HEPNAWCNJTBKK1VI5KRT",
+          "qty": 5120251.595601,
+          "proceeds": 5.410355786,
+          "proceeds_asset": "SOL",
+          "timestamp": 1783887582
+        },
+        {
+          "signature": "5Cuah8jdGSBQPSvbi1eXGwoYtkzA6SgDwGbWsdhSA363rgZDimgZnuFqGFetv6mtcWwLzKXjkUPpgXgsTNBkeQ4d",
+          "side": "BUY",
+          "asset": "LEON",
+          "qty": 11863782.7376905,
+          "cost": 5.3946,
+          "cost_asset": "SOL",
+          "timestamp": 1783887630
+        },
+        {
+          "signature": "2CiCmTAVXPayKNrYpa9fkYQyNPB4sCFDQaaYWJXgGkxSkeDsr7KAevdeZQJSiMU8yvePKPcWCkG1JCnb3mireom",
+          "side": "SELL",
+          "asset": "LEON",
+          "qty": 2000.0,
+          "proceeds": 1.261388397,
+          "proceeds_asset": "SOL",
+          "timestamp": 1784045358
+        },
+        {
+          "signature": "5q3RwrJyNVFFp31hUvNsdgyndeW21vgiaewhZUk7uFbo8Sgkst2QdF8YXrxK1ukzGgDujuFSjKidnni7FM4e9hm4",
+          "side": "BUY",
+          "asset": "LEON",
+          "qty": 8163498.415942356,
+          "cost": 4.88511,
+          "cost_asset": "SOL",
+          "timestamp": 1784051739
+        },
+        {
+          "signature": "2iKcy37UQ5Ku89JHotuYTc6KBvWmZAwZwk8w2mMZfVcFcDDPY4Zu1xcYca3SgQsWUb2KkmcY8ttFHy19Mnp7zJk6",
+          "side": "SELL",
+          "asset": "LEON",
+          "qty": 18027281.153632857,
+          "proceeds": 10.22367172,
+          "proceeds_asset": "SOL",
+          "timestamp": 1784751428
+        },
+        {
+          "signature": "3XEBmRVdRK574cn5kvJsgdTzeF7eD3S7RHZwWet3iU7NSbFABX9y6MStp5cUEyM1VEDV5yiEh52wTeHwG2WjqKGW",
+          "side": "BUY",
+          "asset": "EWIVNXCQNATZV2PABHYF",
+          "qty": 5187294.522874,
+          "cost": 0.002520956,
+          "cost_asset": "SOL",
+          "timestamp": 1784751498
+        },
+        {
+          "signature": "5gMVYMGU48iSGTwoY1wtW3HeVaXcMG1G1p3zWBzbt3GaqQJ3ByLHEKKxkKMDkkGguBR1jy7t6RiqhKsqhzpQCSMr",
+          "side": "SELL",
+          "asset": "EWIVNXCQNATZV2PABHYF",
+          "qty": 497500.0,
+          "proceeds": 2.590239841,
+          "proceeds_asset": "SOL",
+          "timestamp": 1785021338
+        },
+        {
+          "signature": "2kyCFHmEqgJ4BKGjBGTLN3ff9aFZykcyFxL2TZnzcXbrkT1wiUutt4dkUhCHwSjkGyXhuZ6ufW5cnx7YkhpepVaR",
+          "side": "SELL",
+          "asset": "EWIVNXCQNATZV2PABHYF",
+          "qty": 4760286.559848,
+          "proceeds": 5.150368768,
+          "proceeds_asset": "SOL",
+          "timestamp": 1787412034
+        },
+        {
+          "signature": "23Hs3PRRRreikYY3Fh4LLfHMDyHBB4CxoKzMKA9U1KNHrdorqVYtB8HgMewo6ggMMhnK5BMxwmzVoPNW8gKiGJrX",
+          "side": "BUY",
+          "asset": "6DX5M8DY6VTFTVRX5YZW",
+          "qty": 412670.702382,
+          "cost": 0.000582338,
+          "cost_asset": "SOL",
+          "timestamp": 1787782627
+        },
+        {
+          "signature": "3uJz3NXE8qu7Tfr9qxqcR5B9dQAYTZUmHYzYkHf7tgKCjh427b1zoP8Foo4iCGLrmbiQyJ9jkge4XoAME9xtqTbU",
+          "side": "SELL",
+          "asset": "6DX5M8DY6VTFTVRX5YZW",
+          "qty": 124875.0,
+          "proceeds": 1.000163803,
+          "proceeds_asset": "SOL",
+          "timestamp": 1787785545
+        },
+        {
+          "signature": "29mRg6EnRthUfgte65A6qhRcYzsh219Raz32eWWumLfwNKCh4icr6ZgTGNVE2o2WDBbvZgdhqxD1TgKJqEbHjzqK",
+          "side": "SELL",
+          "asset": "6DX5M8DY6VTFTVRX5YZW",
+          "qty": 37633.03168,
+          "proceeds": 0.307403034,
+          "proceeds_asset": "SOL",
+          "timestamp": 1787786296
+        },
+        {
+          "signature": "4oqEqqz45PJ26XagxjyQBL7um8whDPkksK2EmhurcF4YMRnN6FdadqsXMicjXxUShFYZLx5YbyNfAQuPFzBpmhPT",
+          "side": "BUY",
+          "asset": "6DX5M8DY6VTFTVRX5YZW",
+          "qty": 167666.194946,
+          "cost": 0.000317504,
+          "cost_asset": "SOL",
+          "timestamp": 1787839048
+        },
+        {
+          "signature": "2Wj8r2WukHSWUfyzLqsLFNgrq9yGeuDHeDeWdJwPgPjLqBfsQWQ4YBwPa3NKB9ByAXwGj6XpoCiWCgsifxwd8FQ5",
+          "side": "SELL",
+          "asset": "6DX5M8DY6VTFTVRX5YZW",
+          "qty": 417248.528752,
+          "proceeds": 2.635277843,
+          "proceeds_asset": "SOL",
+          "timestamp": 1787859033
+        },
+        {
+          "signature": "2FZZzvmo6TXB5sqi4tZcCwFm18WuZpfcPe7tuxFLqmF6hrrLjjQ2n4nmjr6braPU5E1kGASS941NtaFDXmc2HpXr",
+          "side": "SELL",
+          "asset": "G53MPROSYKFT6MPYXLH5",
+          "qty": 14620952.630725,
+          "proceeds": 3.460677106,
+          "proceeds_asset": "SOL",
+          "timestamp": 1787859063
+        },
+        {
+          "signature": "5Zba2mPk14yVkHuQw35CQwLuuaBuPp4UHSBoa7CF5MzLQXeha3X6Bpa8afrkjnK6D5scSAtbf2bPhT9kNWDTaKip",
+          "side": "BUY",
+          "asset": "6DX5M8DY6VTFTVRX5YZW",
+          "qty": 537361.538881,
+          "cost": 0.000856387,
+          "cost_asset": "SOL",
+          "timestamp": 1787859147
+        },
+        {
+          "signature": "2Y9LwnkjFDhk2U1Hb2Je5iHByG5b7CNmZSNHNhhszjvtXXJC6HFDg7vxrAaAGTgj3Bv3mxqbEZ41BmfGwQQcFsit",
+          "side": "SELL",
+          "asset": "6DX5M8DY6VTFTVRX5YZW",
+          "qty": 537361.538881,
+          "proceeds": 2.801674467,
+          "proceeds_asset": "SOL",
+          "timestamp": 1787908544
+        },
+        {
+          "signature": "3ebb8twVTtTWozneeDFLCFiapXgn7cA8nq4dPJdmtE5grka47CxJqKXcX5GjvvigPh9jpuWtdeB3gm3k4dByWqGP",
+          "side": "SELL",
+          "asset": "6IZFUTKZX4STCATPWYXH",
+          "qty": 9733070.815323,
+          "proceeds": 5.492144859,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788025707
+        },
+        {
+          "signature": "2qb9FULPHpk3ZTfbfy3kJ14JaNvjztVwd7nTAN95ayhgBbsD88Um4zshdGx3Tms92mT2ghC3ZpXyDtsNL6RmVZxr",
+          "side": "BUY",
+          "asset": "6DX5M8DY6VTFTVRX5YZW",
+          "qty": 822971.581149,
+          "cost": 0.001352812,
+          "cost_asset": "SOL",
+          "timestamp": 1788025817
+        },
+        {
+          "signature": "GM9Ui41W1p7FMip5VYjbKZCuDEBbgFoWRJvuwGUP3NdeuaCKBFWXPeVD9z1WH9bXVScSpDiSePtKCZqBmnReikR",
+          "side": "SELL",
+          "asset": "4GCMJ87XRCHBREMVPGZW",
+          "qty": 3736646.569825,
+          "proceeds": 4.439472056,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788086218
+        },
+        {
+          "signature": "61pTVFBdG661qFj3LZgczCaWNmZecD3kbAxT8ikJXXrTVeic8GiYU6aMcbZApNBW4nHTHz5FaVJv8C7e4p4Kc77W",
+          "side": "BUY",
+          "asset": "9WPWGKA9RSJJ6DJKD4S7",
+          "qty": 3394648.474427,
+          "cost": 0.001093988,
+          "cost_asset": "SOL",
+          "timestamp": 1788086513
+        }
+      ],
+      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
+      "discovery_score": 9.4,
+      "protocol_count": 1,
+      "program_activity": {
+        "Jupiter Swap": 1
+      }
+    },
+    {
+      "address": "96htxSjQXoNs7fDzwrSkvNsnsbfgJVo7g9tTELEDpjhp",
+      "research_score": 91.2,
+      "transactions_analyzed": 40,
+      "swap_count": 28,
+      "buy_events": 5,
+      "sell_events": 9,
+      "realized_pnl_sol": 80.061221,
+      "closed_trades": 4,
+      "wins": 4,
+      "losses": 0,
+      "win_rate": 100.0,
+      "data_source": "Helius Enhanced Transactions",
+      "trades": [
+        {
+          "signature": "3beLvZsWvikyXrqJUmfGH7XjPzvpxcUcQ6nfVFb9oiE9es8xDLokUMr3Tv19pXiukFqN6mtjPtJ49bRqB6Y18tEp",
+          "side": "SELL",
+          "asset": "AI66LHZG9MCZG1WKDAWW",
+          "qty": 500.0,
+          "proceeds": 0.304301538,
+          "proceeds_asset": "SOL",
+          "timestamp": 1787840681
+        },
+        {
+          "signature": "463wPyUxrWDpokGfjT3SmeJhEH55CnvPAY2r7C8tAYkVTrx853D6Ute2r6mffD7SzmeX5Sc4pgKuWdteYQFJ6gyB",
+          "side": "SELL",
+          "asset": "XKETXO1125VZ5H9SVJPG",
+          "qty": 1976553.266039,
+          "proceeds": 5.592400702,
+          "proceeds_asset": "SOL",
+          "timestamp": 1787852019
+        },
+        {
+          "signature": "4s95viU91BTkCNBF5DL24UzpzkZdkjoexTv5WTBmsREG8arTMr8PipHiGimhxdhCxCRBg3K2qJW9RpZck3Rvw6aW",
+          "side": "SELL",
+          "asset": "AI66LHZG9MCZG1WKDAWW",
+          "qty": 4488.0,
+          "proceeds": 10.89812725,
+          "proceeds_asset": "SOL",
+          "timestamp": 1787861695
+        },
+        {
+          "signature": "bZsVQSm6Rr75Axpv4fgLncGXABUK1Y8Ed6xpEo6XfAZWDopcUkerJKRiw68xgg55AWYA1Br7Yq6UeV6kh33uPNn",
+          "side": "BUY",
+          "asset": "XERIS",
+          "qty": 325008.715017,
+          "cost": 0.00270201,
+          "cost_asset": "SOL",
+          "timestamp": 1787862675
+        },
+        {
+          "signature": "2pTxugNKat8jnY8vQGcfpjg1gsP3ypK3ekfM1cJQ49yLZfWTHwBRN1YifFYY6aNZeDEvrZQRy2saxakW8Nd8WEgb",
+          "side": "SELL",
+          "asset": "XERIS",
+          "qty": 2700.0,
+          "proceeds": 0.101383623,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788029889
+        },
+        {
+          "signature": "5escDxW37s1Rx4SawgEQJDiz835VH5dJaL99eAbnkkt7mTtTS8XLYiwJqYsLgfhXNzgdzjpiGfURWaBDFp3fhyj1",
+          "side": "SELL",
+          "asset": "TRUEQ13UWEHY57S1Y62I",
+          "qty": 1232947.032513,
+          "proceeds": 23.278224837,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788081021
+        },
+        {
+          "signature": "wEDGcow9aZ4jzdjgxZ5CLeM2LtEmAAP9eWxWVYK68ex9QzGqXe27XGCVB4MsAZHQHQDfUAGcSdEGW1vfijEcYkj",
+          "side": "SELL",
+          "asset": "TRUEQ13UWEHY57S1Y62I",
+          "qty": 495312.160172,
+          "proceeds": 27.402569142,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788083552
+        },
+        {
+          "signature": "2SxrpZNJqG7nwk8NdVRxSsMi2HJ9csMNJZwxdvUWb1V9B1XbtSBjGuinKkS1kDkiTMUHXmV7M8uK84JuVbZrwHHp",
+          "side": "BUY",
+          "asset": "TRUEQ13UWEHY57S1Y62I",
+          "qty": 150353.608034,
+          "cost": 0.006207897,
+          "cost_asset": "SOL",
+          "timestamp": 1788083972
+        },
+        {
+          "signature": "xPzZwC3LyD8fv6FXV2CPboBn9WknqhVjYyryBcjJhf1d2JSm15MswGm1xA2Ss5VY2oB4t2MCtamsLZtLx62jXDW",
+          "side": "SELL",
+          "asset": "TRUEQ13UWEHY57S1Y62I",
+          "qty": 1461561.340023,
+          "proceeds": 28.213561427,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788084391
+        },
+        {
+          "signature": "3GAy1Sskhf4djhKmMBJwpReBZi4yXNxxwbVttSmWGQQEkp7s3knjXzMjLVXxuhHja1sgv4NJDuQq3shXqxcY2CHk",
+          "side": "BUY",
+          "asset": "TRUEQ13UWEHY57S1Y62I",
+          "qty": 1347383.863743,
+          "cost": 10.058347752,
+          "cost_asset": "SOL",
+          "timestamp": 1788085159
+        },
+        {
+          "signature": "2u6xpUGtQCDnCynstsK5Wm9CTHmwWCo1pWURFA4LD5ETTpFtGRccfnRhzepjroYw7ULSEutZr2qoxsNFGLpqswJY",
+          "side": "SELL",
+          "asset": "TRUEQ13UWEHY57S1Y62I",
+          "qty": 640558.553764,
+          "proceeds": 25.409548233,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788085665
+        },
+        {
+          "signature": "uKa6kTsLHhFoESxJajHBrbcNNSedV4GMNUmafzEabt3o62RsQ1ZkAiSGSvF4JPbu1knDTvkg9Be5YkYhXuoS7ie",
+          "side": "BUY",
+          "asset": "TRUEQ13UWEHY57S1Y62I",
+          "qty": 985526.120267,
+          "cost": 0.541731641,
+          "cost_asset": "SOL",
+          "timestamp": 1788085844
+        },
+        {
+          "signature": "2S3t7Z7srSZHdc3a7N7Hw9XMzkPaLAVU3xxDs8SrWDSbkAwTZgBFz5AStVMwwEuf1Fcvzgspmgj46Vjsg8gVqKjY",
+          "side": "SELL",
+          "asset": "TRUEQ13UWEHY57S1Y62I",
+          "qty": 1974022.675855,
+          "proceeds": 36.943037933,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788086469
+        },
+        {
+          "signature": "4x4pQmxAtQkrt4kUbmh5gsRKzJxdjjWANKmjx34yWCK1gu3BDCr7U47ZBshHDBcNH3uNyvi5BpT5fXUx95EFtLQi",
+          "side": "BUY",
+          "asset": "XERIS",
+          "qty": 1380112.617688,
+          "cost": 0.012258076,
+          "cost_asset": "SOL",
+          "timestamp": 1788086512
+        }
+      ],
+      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
+      "discovery_score": 9.4,
+      "protocol_count": 1,
+      "program_activity": {
+        "Jupiter Swap": 1
+      }
+    },
+    {
+      "address": "GiQhfuioYFkNKtqKht9HJbrFPNKA148L247VvsytuF3P",
+      "research_score": 73.5,
+      "transactions_analyzed": 40,
+      "swap_count": 40,
+      "buy_events": 20,
+      "sell_events": 20,
+      "realized_pnl_sol": 0.0,
+      "closed_trades": 20,
+      "wins": 20,
+      "losses": 0,
+      "win_rate": 100.0,
+      "data_source": "Helius Enhanced Transactions",
+      "trades": [
+        {
+          "signature": "3xZKZSBt5KCPF97uUJUnYGvhPgzrWvydfebVRHD5ZbSkPmQTErZiQhqpoH2cNnNQnRMZX41WWqYSa4HVzE6SYCF9",
+          "side": "BUY",
+          "asset": "SKIPP",
+          "qty": 2005507.49332,
+          "cost": 55.562,
+          "cost_asset": "USDC",
+          "timestamp": 1788051155
+        },
+        {
+          "signature": "4vMLXxrRXkfxoqJN6RXem9sVLHYp8NsQtXi57varZZXPd96xQ3SLSLeK4FoZeWGLyG4TV8mFNUVP5zwTW5vNXhWt",
+          "side": "SELL",
+          "asset": "SKIPP",
+          "qty": 1852066.0,
+          "proceeds": 51.347068,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788051157
+        },
+        {
+          "signature": "4kjk7ny8fgDLtUA2dD9rSs5fxCMg8yorFQqwF6UfLE36szredQdYsbxEVtUdjVTWsuBoBQu6YQXgvb3ff8jKfk9U",
+          "side": "BUY",
+          "asset": "SKIPP",
+          "qty": 1985320.359597,
+          "cost": 55.562,
+          "cost_asset": "USDC",
+          "timestamp": 1788053025
+        },
+        {
+          "signature": "2vE6TArsSaoyBhtktRxc9yNfFNCfop4UWB73n11Ei5vqphKRuQxHe5TvEreaucirijadAVe2EYuKo4pBN7Mxp4QV",
+          "side": "SELL",
+          "asset": "SKIPP",
+          "qty": 1852066.0,
+          "proceeds": 51.863229,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788053027
+        },
+        {
+          "signature": "42T2G9Mpm981kMA5EELJwHBNTpBzyuscKRbNzdFmZk2V5iQFCh38WuyCvBpXab4m3fyRjtWtKXTzgJdHwNPewCj",
+          "side": "BUY",
+          "asset": "SKIPP",
+          "qty": 1967412.55627,
+          "cost": 55.562,
+          "cost_asset": "USDC",
+          "timestamp": 1788054887
+        },
+        {
+          "signature": "Wa3QeivkqxN3fWwePVRthoVMkJo4JLPxECxav5BtBHNz1gGfe5Tm3XgNeCVMEC4o4KEueJEL6AKNxSp3CNKPvKG",
+          "side": "SELL",
+          "asset": "SKIPP",
+          "qty": 1852066.0,
+          "proceeds": 52.329927,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788054890
+        },
+        {
+          "signature": "oi9zKWVarTHuwmA5QGsGtcVThnwKEuQ1zgdsDSrpJHtiFpRjKqE6o4XR7TMiy6yRNz3YDVCTbjVY41wD2aAigxx",
+          "side": "BUY",
+          "asset": "SKIPP",
+          "qty": 1953700.645273,
+          "cost": 55.562,
+          "cost_asset": "USDC",
+          "timestamp": 1788056757
+        },
+        {
+          "signature": "2NQ3MpBNnqLyisymFeBmcutoSxSDXcigWpJ7jZp1SgQMHJrzxuRJAquqKNNaaZN74DNKmdVE4BNkQGGAVnBD3zBj",
+          "side": "SELL",
+          "asset": "SKIPP",
+          "qty": 1852066.0,
+          "proceeds": 52.693026,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788056764
+        },
+        {
+          "signature": "56FvHUwx3FmNLbZbGvpdpQLkzuueLZpigPXxeh9dnLtVZi88QRU3ncNyjrTcyXUMmxB7zDWB2MM57yr91ZvGBRJf",
+          "side": "BUY",
+          "asset": "SKIPP",
+          "qty": 1939583.189545,
+          "cost": 55.562,
+          "cost_asset": "USDC",
+          "timestamp": 1788058637
+        },
+        {
+          "signature": "2WVbdHzP2MD2cjZTaZgrfwmrUseDBfTJiZVEs3W5XvNpFDTekeynXZDPujEHsx7Q6kzKWu8qTBRQPw9rgokGJiHp",
+          "side": "SELL",
+          "asset": "SKIPP",
+          "qty": 1852066.0,
+          "proceeds": 53.072197,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788058640
+        },
+        {
+          "signature": "5z1neQs4zetxh5tEH9oHY4m8tkJsAuEoZ7T1wfcnswVF7TrqKiXkmQYGKsaRdMJ5bK83YG3ncXcDxXAiEhxDxKhr",
+          "side": "BUY",
+          "asset": "SKIPP",
+          "qty": 1928108.337741,
+          "cost": 55.562,
+          "cost_asset": "USDC",
+          "timestamp": 1788060505
+        },
+        {
+          "signature": "aPwn44dVsqWibH2cdyM7MegxtYB5yHVWdXVbBydaVDWVnpZFZG2z6DpKYonUa82fbKZyP1H3u92aKqe9HB2bFVL",
+          "side": "SELL",
+          "asset": "SKIPP",
+          "qty": 1852066.0,
+          "proceeds": 53.384461,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788060510
+        },
+        {
+          "signature": "3J1saDmPU6e7G7HHrFSv3vP98YLhQNbZHKjtgG7vDm27qakBdoezfZuaDkubCBBwQau2mDpzUM5UiXFyVDXUUGB1",
+          "side": "BUY",
+          "asset": "SKIPP",
+          "qty": 1918362.339578,
+          "cost": 55.562,
+          "cost_asset": "USDC",
+          "timestamp": 1788062376
+        },
+        {
+          "signature": "2hXVauXV8xWxz1NpoLrAR8NEUumcxi6r8hdd5gDwk467efrD3DR13S1S41W3v7qdWVmXog3Srgt5EwWPub95ZJ9D",
+          "side": "SELL",
+          "asset": "SKIPP",
+          "qty": 1852066.0,
+          "proceeds": 53.652595,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788062378
+        },
+        {
+          "signature": "XxDu8RenZPSJ5992yKQSgmX5YrNpUHKGBNUxq1AvtU6GhRX8mUh9y1NsMuBmYhEot5Fgez7EQbV4js9DZf6DBCp",
+          "side": "BUY",
+          "asset": "SKIPP",
+          "qty": 1909663.633441,
+          "cost": 55.562,
+          "cost_asset": "USDC",
+          "timestamp": 1788064246
+        },
+        {
+          "signature": "VbDENsEoqNFDAL77SMma17tPCWQPvgq4hTrTbqFiGwzxNiTbXG6cx3sAjvWyJzmH2ad3R2EyzVp5CWA3Krcb7CP",
+          "side": "SELL",
+          "asset": "SKIPP",
+          "qty": 1852066.0,
+          "proceeds": 53.894214,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788064250
+        },
+        {
+          "signature": "4muBSRPUt6mwNYyQ3VrSKRTzEqriknhFe6oQRYCmAdyVcbSSfRcg4coY5RocRhqqc3jnUvmSvWoARLrC84Doe7NC",
+          "side": "BUY",
+          "asset": "SKIPP",
+          "qty": 1903059.017032,
+          "cost": 55.562,
+          "cost_asset": "USDC",
+          "timestamp": 1788066115
+        },
+        {
+          "signature": "5qU9gTnzCNzfZrJJTWogiGw7pUxMZtwdQkqM98ggf2NgFSpy28kd4KHeyRHYUZiLt4XR45Bwp6QgX6FKUKpvmaX1",
+          "side": "SELL",
+          "asset": "SKIPP",
+          "qty": 1852066.0,
+          "proceeds": 54.079134,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788066116
+        },
+        {
+          "signature": "5LHy5DUuK7UnwYMdC8rECwwXRraVkzJ4WS3D55WB6F9gGSAjXa8UnxQnY5CT8rM9k2nZRSyvBEDECLikZZN5XYjR",
+          "side": "BUY",
+          "asset": "SKIPP",
+          "qty": 1896511.273595,
+          "cost": 55.562,
+          "cost_asset": "USDC",
+          "timestamp": 1788067979
+        },
+        {
+          "signature": "4kHy5SZpqF1juAEc3ys5YeECBqffuUgFCHwY7D3aaYn2qQvyspqtB23KWghr5F6Ec2uoTvLjqtT5GszxQU2Z9jzQ",
+          "side": "SELL",
+          "asset": "SKIPP",
+          "qty": 1852066.0,
+          "proceeds": 54.263726,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788067980
+        },
+        {
+          "signature": "4vNkiftVmGw45bds1JSq7PVPbo4YRptUcqehztoLytLZScyhKTHFhoMSFgpC412usyaEzDTXQkY33ujW55Y3rw6m",
+          "side": "BUY",
+          "asset": "SKIPP",
+          "qty": 1890462.657831,
+          "cost": 55.562,
+          "cost_asset": "USDC",
+          "timestamp": 1788069850
+        },
+        {
+          "signature": "2g4HaQyFFLHKWxe4AboYfDdjPKSo6jtqzQBv334WJyg77ihbwizrQiMaUENn6e3296c6BCwsxj39JYh9erUg52d7",
+          "side": "SELL",
+          "asset": "SKIPP",
+          "qty": 1852066.0,
+          "proceeds": 54.435376,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788069852
+        },
+        {
+          "signature": "2nsYPQstgJQqtfZLYedqkGJu2ZBboVXZUM7Bo7ifRop2FHUJtUxk9Uqf8WT4YxWVVvrxrN8zotUmXhC2HXejr9uu",
+          "side": "BUY",
+          "asset": "SKIPP",
+          "qty": 1885669.672056,
+          "cost": 55.562,
+          "cost_asset": "USDC",
+          "timestamp": 1788071722
+        },
+        {
+          "signature": "2CjyqF3sdKw6TspYHi3GYQbBenMFf4G7epduXkXRAVuPbnBgR9u8CATMnPDsqQukL4BTJYAdC2K5JS56pkkYAE4H",
+          "side": "SELL",
+          "asset": "SKIPP",
+          "qty": 1852066.0,
+          "proceeds": 54.572171,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788071724
+        },
+        {
+          "signature": "4rxgkFgsJyghBaKH2CFe9WNiHoj665P7rwRWy7reJJCyQ1BsfjyXjF9KZAHYtkpffMQtXoARos6rW9J2WtwuMryH",
+          "side": "BUY",
+          "asset": "SKIPP",
+          "qty": 1881885.846356,
+          "cost": 55.562,
+          "cost_asset": "USDC",
+          "timestamp": 1788073584
+        },
+        {
+          "signature": "5anoFAjXZqLhL8mg94XP4P9dtWEbGxA89QWF9ybB8oucMRt7KE5jRyag5jwUiKedgFQkg1w85cL51WRcnnFSHNef",
+          "side": "SELL",
+          "asset": "SKIPP",
+          "qty": 1852066.0,
+          "proceeds": 54.680654,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788073588
+        },
+        {
+          "signature": "5hjeKWpzXruhUFQnBoqrmytCNwqhZsRzk3Xn1Eg8Ki3KWVnJY79VNV3MwEQR6wapYWwbAKrJXFP23UrCihfSfy2o",
+          "side": "BUY",
+          "asset": "SKIPP",
+          "qty": 1847631.17675,
+          "cost": 55.562,
+          "cost_asset": "USDC",
+          "timestamp": 1788075492
+        },
+        {
+          "signature": "MSTY52Zu4P43HV5yGarBHsZ1Z1oVN5j6MwQQKf1CqjCqeLQGTGoyjqbVjRDdN8V2MXPhDqfE69f3iUN5wEHjsbS",
+          "side": "SELL",
+          "asset": "SKIPP",
+          "qty": 1852066.0,
+          "proceeds": 55.68284,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788075496
+        },
+        {
+          "signature": "2qNJiny6FMu9MeM6YvAdAGgmjeAhBeZTDrRU8EBKeLevQPN3R8Lz84tyZvis1a4CUi1gLFbS1u3LNvqkSvhrqRry",
+          "side": "BUY",
+          "asset": "SKIPP",
+          "qty": 1848312.768686,
+          "cost": 55.562,
+          "cost_asset": "USDC",
+          "timestamp": 1788077366
+        },
+        {
+          "signature": "wDE5CrNsLuk8i9nLCuL11s6S3z6oCsunLBmUNAVfKX3hfjbCSoSGbCQaBSUmQ7AV2X9svtvK23A3GsiyoxAfnne",
+          "side": "SELL",
+          "asset": "SKIPP",
+          "qty": 1852066.0,
+          "proceeds": 55.662539,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788077368
+        },
+        {
+          "signature": "4PP8KQ4bAu4nBRYhjx8BCe5i8TVeUy8by5b6jkCUy7kpP9wk29t4TkiFBB9SZQAoSQKZgK6tgBKiVCCL42xK8bbs",
+          "side": "BUY",
+          "asset": "SKIPP",
+          "qty": 1848972.259405,
+          "cost": 55.562,
+          "cost_asset": "USDC",
+          "timestamp": 1788079238
+        },
+        {
+          "signature": "3MWvzsXW9BX2J46fEWW2CNa7XSZw4H3dYnVyRw3ggXx4UMfCsuxpRRSpHeq94uugzhfxuu6MJAe5Zdqfzpg4c3GN",
+          "side": "SELL",
+          "asset": "SKIPP",
+          "qty": 1852066.0,
+          "proceeds": 55.64291,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788079239
+        },
+        {
+          "signature": "5ar4Mr13MKLpvuLraVoVgPCenDWVWihVrxjUeyXHDfJ7jk3Qn5VMgUfizg4ca2TiFNp3ad2BWkfF6r5Xm6VhQ91A",
+          "side": "BUY",
+          "asset": "SKIPP",
+          "qty": 1761290.903609,
+          "cost": 55.562,
+          "cost_asset": "USDC",
+          "timestamp": 1788081107
+        },
+        {
+          "signature": "Epe1cg6SDhn5mrQ9zStivzSCoetiA2qewjfVbHUSV935x7uFT8XcQx5TuRy62mdarfSRgYW2YtE8RuhfSnvLYzR",
+          "side": "SELL",
+          "asset": "SKIPP",
+          "qty": 1852066.0,
+          "proceeds": 58.380858,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788081109
+        },
+        {
+          "signature": "4G3zKnQ1eE2o38YzQYkyVy5iRVWTSg4FsMWFoZ4YL6TusBiqhSGWWHhb126WUBNJcKeL37mFvDdwsg6LUhvAYU6D",
+          "side": "BUY",
+          "asset": "SKIPP",
+          "qty": 1766022.997401,
+          "cost": 55.562,
+          "cost_asset": "USDC",
+          "timestamp": 1788082771
+        },
+        {
+          "signature": "VntiLCCUYjTsGA1eSBpJjqxacKjmv1HGVjYUmDRbyXCidQNtYo7L8A8VFmZVZpcUYtPXTyZNZo7gDFnqBxNdiGK",
+          "side": "SELL",
+          "asset": "SKIPP",
+          "qty": 1736312.0,
+          "proceeds": 54.626597,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788082773
+        },
+        {
+          "signature": "5oRh7jEzzZ7tSxhmK87PdqRyLtMYiW43rf6pNzfn3uFDKwvP9SBTxaTKchVF3KdAecy75R3P6vnBdkUXBf66uYtF",
+          "side": "BUY",
+          "asset": "SKIPP",
+          "qty": 1767979.161117,
+          "cost": 55.562,
+          "cost_asset": "USDC",
+          "timestamp": 1788084641
+        },
+        {
+          "signature": "5eRz7c1fDLrUyxfJr3AJLVXaUhfRwkC8wT37JUEJF7pyAXMd3vF5xhC4p6VXECze7SeCdHr4CbB7jfCC4ZrPByh5",
+          "side": "SELL",
+          "asset": "SKIPP",
+          "qty": 1736312.0,
+          "proceeds": 54.566819,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788084642
+        },
+        {
+          "signature": "L9HezJjdmE9V7HwvjTwpaXND7GbyuNi8evrZNtdRDGfgC83EVDf1a6xTYoRhxbLs8ULrfxTm6CTfV2hPp1Lmv8p",
+          "side": "BUY",
+          "asset": "SKIPP",
+          "qty": 1769747.717022,
+          "cost": 55.562,
+          "cost_asset": "USDC",
+          "timestamp": 1788086513
+        },
+        {
+          "signature": "LPh1w6owUNxbRWNBfzfDLzt2tmszceufasjGY8xK4Uy6oD8W9FNnsAoCmwdBtCCxJsNWvUWnSD2SqstasgFuzfE",
+          "side": "SELL",
+          "asset": "SKIPP",
+          "qty": 1736312.0,
+          "proceeds": 54.512886,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788086514
+        }
+      ],
+      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
+      "discovery_score": 9.4,
+      "protocol_count": 1,
+      "program_activity": {
+        "Jupiter Swap": 1
+      }
+    },
+    {
+      "address": "9GM1mRHzsegkRecryjba5dhuFX4T3pmW4hQMTvoRa1vg",
+      "research_score": 66.0,
+      "transactions_analyzed": 40,
+      "swap_count": 18,
+      "buy_events": 9,
+      "sell_events": 9,
+      "realized_pnl_sol": 1.255407,
+      "closed_trades": 8,
+      "wins": 7,
+      "losses": 1,
+      "win_rate": 87.5,
+      "data_source": "Helius Enhanced Transactions",
+      "trades": [
+        {
+          "signature": "35kpzf8ByvTmsxaEXd3hM5BP2bD69jnf9LKKFxvNGgPU2NdnAhMyyiqt3aRXLbfcvKYM4imGTVdw7dH34tXmnbR4",
+          "side": "SELL",
+          "asset": "3AEHC5L6WCECWVSRHDKC",
+          "qty": 3099578.787399914,
+          "proceeds": 0.149667849,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788081605
+        },
+        {
+          "signature": "3PooA3efkyN5b5HhMbUCWRca3Nhxkhyap41vtFk3gbf9NkQytJ1b5EJ673AK9frbHmrwktCH61Hi6NvbjtNPRfaq",
+          "side": "BUY",
+          "asset": "STONKBANK",
+          "qty": 3269806.385208892,
+          "cost": 0.1998,
+          "cost_asset": "SOL",
+          "timestamp": 1788082067
+        },
+        {
+          "signature": "64ZZTf6fuot4B7rwf8ALRGjtRB5KPrTm7oYGB5z4ue5CpbSsHhFdN2khjKfa99NW4HfWxkbXDm3gHuYBYYVMWTuL",
+          "side": "SELL",
+          "asset": "STONKBANK",
+          "qty": 3269806.385208891,
+          "proceeds": 0.169202051,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788082372
+        },
+        {
+          "signature": "3b7BaKst4fR1jF573cU1YCcNTmyFUN8iRoKeLC3rohfsSf1eLainMajHPX53EN3nvmYcEetxLFShKL6jazAsLAB1",
+          "side": "BUY",
+          "asset": "CCKPVGUXYNMZJGQX7UEY",
+          "qty": 3173399.55885698,
+          "cost": 0.0002,
+          "cost_asset": "SOL",
+          "timestamp": 1788083860
+        },
+        {
+          "signature": "LCKffa146TLXde7ATWJZHK151djn6dRe2mgdS4VF6Di44d6VAbGys1Bw39Twjhw3YwXBVcd3bWkiXDYA2T3uruM",
+          "side": "SELL",
+          "asset": "CCKPVGUXYNMZJGQX7UEY",
+          "qty": 2915112.429544792,
+          "proceeds": 0.303280404,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788084167
+        },
+        {
+          "signature": "2omak3jJhUJD7Jek5Y58gU1RLzAFi3WJTL2Ne7p6Xuz8RcbUrCBZszZCp3RReDTcakSyZ6cfHnhcZUdKgzLTjHXs",
+          "side": "BUY",
+          "asset": "TRUMPSTACY",
+          "qty": 3203278.50037817,
+          "cost": 4.948e-05,
+          "cost_asset": "SOL",
+          "timestamp": 1788084987
+        },
+        {
+          "signature": "3pKb6FYr8oQa3ME3jaTfSHTwGTyJwKJR5Nm3CmnHv7diBvYQ4k9Rx9GqwwU9GuZ1G3Cogc78G6Ww4TsyhNueNP83",
+          "side": "BUY",
+          "asset": "EA9H8KMYPUIB7CFGUPFV",
+          "qty": 3198851.938392767,
+          "cost": 0.0002,
+          "cost_asset": "SOL",
+          "timestamp": 1788085227
+        },
+        {
+          "signature": "44nQx3hwhUS3Sj1NqGTpcY7FS2qnKRHkrKZzJLpVrzENCCBKKxpv4vqyVv8F4KHcPA6HvptwcfhwkCjfj62WTKP",
+          "side": "SELL",
+          "asset": "TRUMPSTACY",
+          "qty": 3203278.500378169,
+          "proceeds": 0.156028958,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788085295
+        },
+        {
+          "signature": "5B8dEnZycP2cEpt6Av3ZBBpEBdPtgaTrhA7B6uFzkzFDCSAmvseyd83HBPYgkiu3Nq7veMX4Ln9RTEfYrhTwN5K3",
+          "side": "BUY",
+          "asset": "FREE",
+          "qty": 3226903.632820676,
+          "cost": 0.0002,
+          "cost_asset": "SOL",
+          "timestamp": 1788085370
+        },
+        {
+          "signature": "44kvCLFnT2MDCUrSAbgCHQhskUiarhw4KPh1bwN3oMw8wLp8mVzKXvsA239iHEB8We5c8LtCXKEkeHgdi8i19o2o",
+          "side": "BUY",
+          "asset": "C3ZJNWFGFQJEFSZP2WUX",
+          "qty": 3177937.493165227,
+          "cost": 0.0002,
+          "cost_asset": "SOL",
+          "timestamp": 1788085475
+        },
+        {
+          "signature": "2vFfEPxJ3FLK9ZxXcCoH7qaghAhyFjFvfCon8cXHv6JnsDFoFTJNar8FMsESZJHGK8E4FuaT9oMqHhHcWeF7gRy2",
+          "side": "BUY",
+          "asset": "PISS",
+          "qty": 3243496.968115719,
+          "cost": 0.0002,
+          "cost_asset": "SOL",
+          "timestamp": 1788085493
+        },
+        {
+          "signature": "35w4fNJy9ab1Kmpkt4CyDgudbi1n6ymGBhw5neYPUvUvib3JK7zAEAXXJaHTmB1Dk1En3ANjwRsT58Fe1feZCqkw",
+          "side": "BUY",
+          "asset": "FGNXGZ9JAMBTPKX5CSEQ",
+          "qty": 3274601.088464874,
+          "cost": 0.0002,
+          "cost_asset": "SOL",
+          "timestamp": 1788085538
+        },
+        {
+          "signature": "5eZDnSMSxYcorVF86BG9rQEKW4WynzUniqskQDRKbtNQpJsAqZeRR4Ef77Fvp7orbnHQnNehgAMbz24QeQSyNB5P",
+          "side": "SELL",
+          "asset": "EA9H8KMYPUIB7CFGUPFV",
+          "qty": 2938493.206711404,
+          "proceeds": 0.159215451,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788085595
+        },
+        {
+          "signature": "J71pkX7TmULuBBCkftc6e4nuy7VZQGjrz18JVSCYxkteQpZPUXYPn2XRAiZnjfzUp4vXrG14QTjfTptLBWPmKYM",
+          "side": "SELL",
+          "asset": "FREE",
+          "qty": 3226903.632820675,
+          "proceeds": 0.168309164,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788085677
+        },
+        {
+          "signature": "X8x2nKxcCbW5zJnvh9EuMzM4oNqmbSj2fzuxt4y9vCDjLuhKm1ncKE8nqPqzvUcep9B4GmLsHKNFPLWmd2iE4sM",
+          "side": "SELL",
+          "asset": "FGNXGZ9JAMBTPKX5CSEQ",
+          "qty": 3008077.034655904,
+          "proceeds": 0.15832085,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788085843
+        },
+        {
+          "signature": "2eYBjxWFWXYfG9Ygbe8Mp5dEx43iDXxaa5eUYRswGM7vFeb2TFF6xj2BkyDuVTHgrf232onEAfurLjy29oTA2WoK",
+          "side": "SELL",
+          "asset": "PISS",
+          "qty": 3243496.968115718,
+          "proceeds": 0.173594187,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788085907
+        },
+        {
+          "signature": "5Y7chFDRakmzjKqpPxWRJVZuta5EUXvXGfXxC66ChqcWg4jfFG25qi21Gcqpt2mA5mzirgQJoN3CqTLPUAJ8g5aG",
+          "side": "BUY",
+          "asset": "2MRJCL7PTZUMSI26WM9J",
+          "qty": 3213418.276192855,
+          "cost": 0.0002,
+          "cost_asset": "SOL",
+          "timestamp": 1788086202
+        },
+        {
+          "signature": "XN752NbuEzLoWxHKqvTze446CJwFyKX17CTPpgVUipMBQedmWaVFnQtWGWGibAzrmjGscGySqQtkNmdeDPQm5Dm",
+          "side": "SELL",
+          "asset": "2MRJCL7PTZUMSI26WM9J",
+          "qty": 3125677.985868978,
+          "proceeds": 0.168451222,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788086512
+        }
+      ],
+      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
+      "discovery_score": 9.4,
+      "protocol_count": 1,
+      "program_activity": {
+        "Jupiter Swap": 1
+      }
+    },
+    {
+      "address": "BN4syyHA51FkAF4n2LYG4oqX42sWBiajbReijki2tLRY",
+      "research_score": 63.1,
+      "transactions_analyzed": 40,
+      "swap_count": 28,
+      "buy_events": 10,
+      "sell_events": 12,
+      "realized_pnl_sol": 0.04102,
+      "closed_trades": 6,
+      "wins": 5,
+      "losses": 1,
+      "win_rate": 83.3,
+      "data_source": "Helius Enhanced Transactions",
+      "trades": [
+        {
+          "signature": "5V1FXZeCn3djxwkHdLzTRv2Bb4SbxmWKXYYDQichso2m4TnYShAUHLMBb3H6cGC2fM3VWeq867ZfKmSp4CxGVA4c",
+          "side": "BUY",
+          "asset": "17",
+          "qty": 157037.7859,
+          "cost": 0.00995,
+          "cost_asset": "SOL",
+          "timestamp": 1788056943
+        },
+        {
+          "signature": "4f3MDsxYcJ6noQQfMMmNAspxF817LyhsP5JJnoFpNKQYoUboeHyTGGtwe7zaWVrnz2vEXkYta9LobYpsrNJbMbor",
+          "side": "SELL",
+          "asset": "43",
+          "qty": 154517.5071,
+          "proceeds": 0.000289069,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788057095
+        },
+        {
+          "signature": "3vq8BWGheHUy6BTBYWJvTzLU2VGGaLvannjSuZJfseZNcZrmSCgd3aAAg45SNyzmFFfU7T95fHF8Br3RuiRZ8KvY",
+          "side": "SELL",
+          "asset": "74",
+          "qty": 2520.2787,
+          "proceeds": 0.000111641,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788057105
+        },
+        {
+          "signature": "5DiRR8ZAYq8aCHCBy6G8qcPUrE2zryN3gEvw36iBspLDHucsiEiozzznDbD5iky3CM5cdJ1pGNUtnSrXy7cVGrCr",
+          "side": "BUY",
+          "asset": "69",
+          "qty": 164078.3549,
+          "cost": 0.00995,
+          "cost_asset": "SOL",
+          "timestamp": 1788057389
+        },
+        {
+          "signature": "36E81wX4yZtMGgDpZBdk3RjG7dPoeVMeVJuXFpR5q4MXPT7i9dzAYBiA42dZGmAcyxsjaaqr4UUrLgVyARQYm91s",
+          "side": "SELL",
+          "asset": "54",
+          "qty": 154.3911,
+          "proceeds": 0.00016681,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788057869
+        },
+        {
+          "signature": "4epqEvMEJpcb8JgSs43kCagz2oVaxrWWwRYRHKACtBcpJWx98rLdM5xe1XqbwDYf9TRhNSDbDTPjL5hjVshF3iMB",
+          "side": "SELL",
+          "asset": "54",
+          "qty": 154.3911,
+          "proceeds": 0.000118981,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788057875
+        },
+        {
+          "signature": "97T2T6hxCF7XRpbjPpeto9HCG98JFxqD9ciV7uE8FbwsD4aoKZeDAJeVwgouExSViDFdCGWqo9bjT1VwmPFkRBD",
+          "side": "SELL",
+          "asset": "61",
+          "qty": 163769.5726,
+          "proceeds": 0.000202896,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788057891
+        },
+        {
+          "signature": "sdwTEGHw5pwLmV9tfRaiErdhs579gF7FEjfGq6FMskpEDezhqhXrdXB3BtcBFDwTK2yjKKutJUdQ5sGJZhvYZ4y",
+          "side": "BUY",
+          "asset": "TAOTAO",
+          "qty": 1025715.864333,
+          "cost": 0.00995,
+          "cost_asset": "SOL",
+          "timestamp": 1788059992
+        },
+        {
+          "signature": "2XoyPGMFLm9n24oQjnAnEc33u1bN4v5343pEjQqXf1Hd5PYhGH2vTXzLWHW18ER14JbSWoZqZVYVa56c9caVHUf6",
+          "side": "BUY",
+          "asset": "CYBERLEEK",
+          "qty": 12301.031951,
+          "cost": 0.00995,
+          "cost_asset": "SOL",
+          "timestamp": 1788062994
+        },
+        {
+          "signature": "217n9urFRVfA8nzQDs9d6NMcvJFW8CoQG2PrwP3tg4VVipBoK9VmdzQ732G9q5izvAjU4N4brqUFzEaTj5i22dYK",
+          "side": "SELL",
+          "asset": "CYBERLEEK",
+          "qty": 12294.899831,
+          "proceeds": 0.019281178,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788063372
+        },
+        {
+          "signature": "UZP4o3h9M9CBqmcJB8TvuTVusDaNVLAoDgEk1es6WJ1PZCDEyDJvJEVcDfyFSy8mmMNudUiyggipZ4jU4LfJfLu",
+          "side": "BUY",
+          "asset": "GTA6",
+          "qty": 20153.766119,
+          "cost": 0.00995,
+          "cost_asset": "SOL",
+          "timestamp": 1788065768
+        },
+        {
+          "signature": "3BNuKF2LV2GDumrC2ZDMLhJVwxMDnhuNzQqzuLY5j26QzRu4UnePDcWdhfyA8zsii3Lq12qvgwmzAMZhBhMwJ6N8",
+          "side": "SELL",
+          "asset": "GTA6",
+          "qty": 20143.719376,
+          "proceeds": 0.019193496,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788068770
+        },
+        {
+          "signature": "4U2PWcdcCiNL6kJsW9ZT2A214DisdrMtJbcMbNkubKAxxK5uUm5pRxsrLZyaGX5F9WWupyEGywTcTvA8rN7S6XP3",
+          "side": "SELL",
+          "asset": "CYBERLEEK",
+          "qty": 2969.025488,
+          "proceeds": 0.015481633,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788072182
+        },
+        {
+          "signature": "3k83GYPXJ1ioibKAcoFSsaoahMWKUyJrFkS6MDVBvwy76pMwcZHStqSaKvToPz6uwUzm9kXhvVSTCwm6FcpHWt6J",
+          "side": "BUY",
+          "asset": "CYBERLEEK",
+          "qty": 12330.244239,
+          "cost": 0.00995,
+          "cost_asset": "SOL",
+          "timestamp": 1788073683
+        },
+        {
+          "signature": "2wZn1ez2Rx8qjWjidUv3VXqxFiWM47sUagGgaKoRkaa425kFQNYSheFgh27V4uXQ9h7g2pH9Ja38jm1LYyRAbrfe",
+          "side": "SELL",
+          "asset": "CYBERLEEK",
+          "qty": 8533.461832,
+          "proceeds": 0.000243656,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788073768
+        },
+        {
+          "signature": "668bMxdTV62tfCCpt6RPdSsfV8fdxqNuiiBUXNCQn76cb9U78dzj93xmf1yh9ojyhqtBLWF9GK9bamXVFLZhZux6",
+          "side": "SELL",
+          "asset": "UNIFART",
+          "qty": 1134412.82977,
+          "proceeds": 0.016032371,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788074553
+        },
+        {
+          "signature": "3axnjaD1v6qSpD9Knh1FkG1aT9kD859renJTCWML76bL6X7Br9XzN9GJjz8RHhaguxTG1oEjbHR3dTGSjEu3sW6T",
+          "side": "BUY",
+          "asset": "CYBERLEEK",
+          "qty": 3911.180151,
+          "cost": 0.00995,
+          "cost_asset": "SOL",
+          "timestamp": 1788077910
+        },
+        {
+          "signature": "2HyTtLTUn7bFhUJbPgHh5YV5gvtH3JRCHxc6QJdrzqn5pRfprKu3iefotEfsyn1GFXu8TpnMHnaUf26SmkFB9FMh",
+          "side": "SELL",
+          "asset": "CYBERLEEK",
+          "qty": 3909.23041,
+          "proceeds": 0.015606869,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788078573
+        },
+        {
+          "signature": "51MiZ1HA3E6m9uLyT6Aa8EZGrxJ2DsELDgMCyprkSR5XDYZDobjx7uuvJbGM4G2Ae1aqED5ZLKCKWLS9Ni3xga4o",
+          "side": "BUY",
+          "asset": "ANTHROPIC",
+          "qty": 83168.102082,
+          "cost": 0.00995,
+          "cost_asset": "SOL",
+          "timestamp": 1788081080
+        },
+        {
+          "signature": "4ukPDoXUR5iZJ3DTYnZR4etbvbxhC8P7GZCLwMW7mFatY49q3jcBuhoEzTSfPQWpCav3AN6UJPaZcQr5PPnZic1D",
+          "side": "SELL",
+          "asset": "ANTHROPIC",
+          "qty": 83126.642409,
+          "proceeds": 0.01454008,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788081711
+        },
+        {
+          "signature": "3ZR5ESpXPC2QFG1AkGD3dj4u56KmMnpjP3CSCbQ4cbbfBydi1iGQ7gXEHqEds6Xw23YDispJLs5H5dS2FY6mRiT7",
+          "side": "BUY",
+          "asset": "NVDA",
+          "qty": 112489.639953,
+          "cost": 0.00995,
+          "cost_asset": "SOL",
+          "timestamp": 1788081797
+        },
+        {
+          "signature": "3yF2LbynwMvaMg3uwYnq3tgoRn8NT3nJr1ta41BmBBFHr6svfnx8fkCE3YVbfs4UR9JFdhY8s5ATjAiosBLM7JvN",
+          "side": "BUY",
+          "asset": "DGAI",
+          "qty": 25292.573765,
+          "cost": 0.0199,
+          "cost_asset": "SOL",
+          "timestamp": 1788086512
+        }
+      ],
+      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
+      "discovery_score": 9.4,
+      "protocol_count": 1,
+      "program_activity": {
+        "Jupiter Swap": 1
+      }
+    },
     {
       "address": "Gygj9QQby4j2jryqyqBHvLP7ctv2SaANgh4sCb69BUpA",
       "research_score": 56.0,
@@ -16,14 +1206,14 @@
       "data_source": "Helius Enhanced Transactions",
       "trades": [],
       "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 9.4,
+      "discovery_score": 10.8,
       "protocol_count": 1,
       "program_activity": {
-        "Pump.fun": 1
+        "Pump.fun": 2
       }
     },
     {
-      "address": "2N5y6E7mqQmXEXQwGsFJWAgnVZ8M6mYpkx4aFTAJmy2c",
+      "address": "AMsWj5tTqWrvLN1485Je7FSBEXhemECdtrZokkS73Gg1",
       "research_score": 55.6,
       "transactions_analyzed": 40,
       "swap_count": 39,
@@ -44,10 +1234,10 @@
       }
     },
     {
-      "address": "4zCwKfTBDb8Kc78Z8tUsxhTvYCr5d6B6C94kGtfTDXC5",
-      "research_score": 54.4,
+      "address": "CCCCQCrL6zVjnDeucDzcxJgxAs5ahNmrhw1CDexPhqrd",
+      "research_score": 55.6,
       "transactions_analyzed": 40,
-      "swap_count": 36,
+      "swap_count": 39,
       "buy_events": 0,
       "sell_events": 0,
       "realized_pnl_sol": 0.0,
@@ -65,10 +1255,41 @@
       }
     },
     {
-      "address": "4EyfVsrA1EWcYzPZnkpfyexfSB3etDQVNaJYNpxrFBrz",
-      "research_score": 54.0,
+      "address": "8psNvWTrdNTiVRNzAgsou9kETXNJm2SXZyaKuJraVRtf",
+      "research_score": 55.2,
       "transactions_analyzed": 40,
-      "swap_count": 35,
+      "swap_count": 38,
+      "buy_events": 1,
+      "sell_events": 0,
+      "realized_pnl_sol": 0.0,
+      "closed_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "data_source": "Helius Enhanced Transactions",
+      "trades": [
+        {
+          "signature": "614ZTyMwRqBdTMCgY1RyWnUPQ1oagPATeJcFqDUXu39duohRVgGQ7ierD4rcFsgtGg9B3ufEkkrzVxwxGwwn4NJj",
+          "side": "BUY",
+          "asset": "CASHX9KJUSTYFTLFWGVE",
+          "qty": 8.564869,
+          "cost": 0.081561729,
+          "cost_asset": "SOL",
+          "timestamp": 1788086512
+        }
+      ],
+      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
+      "discovery_score": 9.4,
+      "protocol_count": 1,
+      "program_activity": {
+        "Jupiter Swap": 1
+      }
+    },
+    {
+      "address": "AJA8LPP7hbBEGfZ4rLiz4uv8RSQKR5giivBu1RuRr2vv",
+      "research_score": 51.6,
+      "transactions_analyzed": 40,
+      "swap_count": 29,
       "buy_events": 0,
       "sell_events": 0,
       "realized_pnl_sol": 0.0,
@@ -86,10 +1307,10 @@
       }
     },
     {
-      "address": "AADSwixnMV6v237bv9TiLaSrqNEobQxKjwNDWxiBtjp7",
-      "research_score": 53.6,
+      "address": "53i4fa2Yv5MjWSX3RMgSbKuumibCcYBy7Z5Ge65oUoKb",
+      "research_score": 51.6,
       "transactions_analyzed": 40,
-      "swap_count": 34,
+      "swap_count": 29,
       "buy_events": 0,
       "sell_events": 0,
       "realized_pnl_sol": 0.0,
@@ -107,31 +1328,10 @@
       }
     },
     {
-      "address": "5HnzXhdADMB3gn2GphZATAwfrEzzMvG5hBwT36Wtd7JX",
-      "research_score": 53.6,
+      "address": "E4zAtVvDr3WocFYh3Aei3fgCQvMsJnsvPKc6YfLZTvJZ",
+      "research_score": 47.2,
       "transactions_analyzed": 40,
-      "swap_count": 34,
-      "buy_events": 0,
-      "sell_events": 0,
-      "realized_pnl_sol": 0.0,
-      "closed_trades": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "data_source": "Helius Enhanced Transactions",
-      "trades": [],
-      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 9.4,
-      "protocol_count": 1,
-      "program_activity": {
-        "Pump.fun": 1
-      }
-    },
-    {
-      "address": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-      "research_score": 51.2,
-      "transactions_analyzed": 40,
-      "swap_count": 28,
+      "swap_count": 18,
       "buy_events": 0,
       "sell_events": 0,
       "realized_pnl_sol": 0.0,
@@ -149,54 +1349,12 @@
       }
     },
     {
-      "address": "67LwNGrukVFFcA1XZQ9U8ddZGCBuPvPHgMxw81AeRtQ7",
-      "research_score": 49.6,
+      "address": "rLsi2DPwRLovHzLV5XYxa8B597bv8w8nX7fZHJJf8uy",
+      "research_score": 44.8,
       "transactions_analyzed": 40,
-      "swap_count": 24,
-      "buy_events": 0,
-      "sell_events": 0,
-      "realized_pnl_sol": 0.0,
-      "closed_trades": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "data_source": "Helius Enhanced Transactions",
-      "trades": [],
-      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 9.4,
-      "protocol_count": 1,
-      "program_activity": {
-        "Pump.fun": 1
-      }
-    },
-    {
-      "address": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
-      "research_score": 44.4,
-      "transactions_analyzed": 40,
-      "swap_count": 11,
-      "buy_events": 0,
-      "sell_events": 0,
-      "realized_pnl_sol": 0.0,
-      "closed_trades": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "data_source": "Helius Enhanced Transactions",
-      "trades": [],
-      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 9.4,
-      "protocol_count": 1,
-      "program_activity": {
-        "Pump.fun": 1
-      }
-    },
-    {
-      "address": "7rqskAg1eYcHXwL4FFdmgNuJ6rg4jCDfE29ugeeTrKez",
-      "research_score": 44.4,
-      "transactions_analyzed": 40,
-      "swap_count": 11,
-      "buy_events": 0,
-      "sell_events": 1,
+      "swap_count": 12,
+      "buy_events": 7,
+      "sell_events": 3,
       "realized_pnl_sol": 0.0,
       "closed_trades": 0,
       "wins": 0,
@@ -205,78 +1363,247 @@
       "data_source": "Helius Enhanced Transactions",
       "trades": [
         {
-          "signature": "haLuKXvvuuUoGcUFwxwXsV2mEnzzXSk6eTSqaFnMyb1as5D7dgVPeLPEko3wJSSYgGCXfBHC4fCmUFBT2nsxwiH",
-          "side": "SELL",
-          "asset": "PIPPIN",
-          "qty": 6918.65,
-          "proceeds": 1.207312394,
-          "proceeds_asset": "SOL",
-          "timestamp": 1788079958
-        }
-      ],
-      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 9.4,
-      "protocol_count": 1,
-      "program_activity": {
-        "Jupiter Swap": 1
-      }
-    },
-    {
-      "address": "9LGWRMfzmMWeDn2hLjVPRN1kUvw7ZZQgpbS9E1kUuUNj",
-      "research_score": 41.2,
-      "transactions_analyzed": 40,
-      "swap_count": 3,
-      "buy_events": 0,
-      "sell_events": 0,
-      "realized_pnl_sol": 0.0,
-      "closed_trades": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "data_source": "Helius Enhanced Transactions",
-      "trades": [],
-      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 9.4,
-      "protocol_count": 1,
-      "program_activity": {
-        "Jupiter Swap": 1
-      }
-    },
-    {
-      "address": "E1Pw26NaygSBQuw82LgmERqtYNdDJHCmK6Fd5L28P5vK",
-      "research_score": 41.2,
-      "transactions_analyzed": 40,
-      "swap_count": 3,
-      "buy_events": 0,
-      "sell_events": 1,
-      "realized_pnl_sol": 0.0,
-      "closed_trades": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "data_source": "Helius Enhanced Transactions",
-      "trades": [
+          "signature": "2XuFe8qtdAp8EQAxZMQkdDswqHpAU6xuUyuV7iQqKRung8wXC3RrpAByTvuxeWc9AVYbh8rki33Eu5zisms1rvWV",
+          "side": "BUY",
+          "asset": "BERT",
+          "qty": 82.600349,
+          "cost": 0.013938292,
+          "cost_asset": "SOL",
+          "timestamp": 1788085673
+        },
         {
-          "signature": "J5dj8jGjcjmFABqXDNagU7zwuif7HRfg5B3Ue7RpYLuHtK3t7oJqDxf4GUQy1pNNgDhzsCXcwREh8WfhxJJEgzj",
+          "signature": "2qEqy1EYeBeam4aY3JFzWsuyyUJjEdNnMLkHYoNZfVeSDGxJqFkQ6DrxzwquHBnie4jfKnDH3GYTH3fiGukVFeRT",
           "side": "SELL",
-          "asset": "READY",
-          "qty": 18084.0,
-          "proceeds": 93.400987,
+          "asset": "AUDIO",
+          "qty": 526.00646364,
+          "proceeds": 6.939491,
           "proceeds_asset": "USDC",
-          "timestamp": 1788085649
+          "timestamp": 1788086119
+        },
+        {
+          "signature": "4DTA8Rzc53wRgvbT8ugK8rUKz5SCYCYe22FAYoBJFC4umCSw7NerDAH1fCsBKf8bdPK9gz7acmVqeRSUmSWUKP5n",
+          "side": "BUY",
+          "asset": "SNS",
+          "qty": 9833.056649875,
+          "cost": 0.259874,
+          "cost_asset": "USDC",
+          "timestamp": 1788086187
+        },
+        {
+          "signature": "23RuSBQjW6zsL9UeS2b3n9DnKPo3XYwMvpwMM5UUQp8NoNXF264FGCzCtWeaspwf88zrYxqG7SjaMaoQaPLaRncJ",
+          "side": "BUY",
+          "asset": "SPY",
+          "qty": 198467.854317,
+          "cost": 0.020072209,
+          "cost_asset": "SOL",
+          "timestamp": 1788086230
+        },
+        {
+          "signature": "4v4w5nSkgrswxEM48Lp7PJMLdK8mYs6RoUaTjGQrB7VPzcuJm4YXForrAN44RxB2AZkg2ih7acUH5v2F651ntoQL",
+          "side": "SELL",
+          "asset": "AUDIO",
+          "qty": 702.08216556,
+          "proceeds": 9.269188,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788086238
+        },
+        {
+          "signature": "3bn8Mq5bdH7vFe7jNf5ANB1moWWMM2BBo1dc7KvHKo5JmS7q2d7WyL4hmaMyHCTaT5SeQYsMnftsUZi3bHmv9zqM",
+          "side": "BUY",
+          "asset": "HNT",
+          "qty": 24.88149977,
+          "cost": 0.143537095,
+          "cost_asset": "SOL",
+          "timestamp": 1788086405
+        },
+        {
+          "signature": "5X3o9PoEu7b1SYpxFsisxsKxLAQuKcD7nC21LxMj8cAUo3Wz15k3HKJ14PGC8xYeda5zn5yd6J1YLMVmCHymZAoY",
+          "side": "BUY",
+          "asset": "WEN",
+          "qty": 311213.09342,
+          "cost": 0.035855288,
+          "cost_asset": "SOL",
+          "timestamp": 1788086406
+        },
+        {
+          "signature": "3Zkivg5KuCqonnfswSmE7jyEdHzu4PLPA3rrBy77WH8RbMASjXkXACwmnqEXKrn6RApDJqrisoV71iicp7VAVVta",
+          "side": "BUY",
+          "asset": "SNS",
+          "qty": 21052.89915039,
+          "cost": 0.487084,
+          "cost_asset": "USDC",
+          "timestamp": 1788086449
+        },
+        {
+          "signature": "sFt2Uj5GdfCjaruYw8TsJH3oyKnoaZxSFQeHgGUXgm7yLHxUsCiH2umtT5Bj6vUUY7Vqy4pFNS1RGDu2xyogGtc",
+          "side": "BUY",
+          "asset": "UFD",
+          "qty": 1227.380456,
+          "cost": 0.138747496,
+          "cost_asset": "SOL",
+          "timestamp": 1788086562
+        },
+        {
+          "signature": "23a3RYdnSrecBdg6V6quKeiB3Li2Dp5y27UEHJAhataj3areVDZFBQxgjJ5LwfrEPTfyivDp26VGUG1uoZdBLMhJ",
+          "side": "SELL",
+          "asset": "HORSEMEAT",
+          "qty": 0.039513779,
+          "proceeds": 0.004062944,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788086571
+        }
+      ],
+      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
+      "discovery_score": 10.8,
+      "protocol_count": 1,
+      "program_activity": {
+        "Raydium CPMM": 2
+      }
+    },
+    {
+      "address": "76mAeb7j3p1824oJ5cW7nzVBwKYxbqAikBvfes5YqUq7",
+      "research_score": 44.4,
+      "transactions_analyzed": 40,
+      "swap_count": 11,
+      "buy_events": 2,
+      "sell_events": 0,
+      "realized_pnl_sol": 0.0,
+      "closed_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "data_source": "Helius Enhanced Transactions",
+      "trades": [
+        {
+          "signature": "MuR3YWrDuJ6MPfPeH8uZv4Smu7YqNsqqwXCw1gTuxnFSeEHYPBhTM9cPKbiXAt9CuoFuspCV2pmSpPEKDai3tsB",
+          "side": "BUY",
+          "asset": "CASHX9KJUSTYFTLFWGVE",
+          "qty": 97.231126,
+          "cost": 97.207402,
+          "cost_asset": "USDC",
+          "timestamp": 1788084084
+        },
+        {
+          "signature": "4QZWbWMLuwNo5kQBwQDZ6YoVFtyNc43ttHN4rj8hRgvnad2amAnTug7E76f68JQH77c3pTbebwtz23yM4arWEgUu",
+          "side": "BUY",
+          "asset": "CASHX9KJUSTYFTLFWGVE",
+          "qty": 97.230945,
+          "cost": 97.207402,
+          "cost_asset": "USDC",
+          "timestamp": 1788086513
         }
       ],
       "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
       "discovery_score": 9.4,
       "protocol_count": 1,
       "program_activity": {
-        "Raydium CPMM": 1
+        "Jupiter Swap": 1
       }
     },
     {
-      "address": "4JuoZpcAfV5AeCn9TXCZSj5Pnn9EDAHqh2C8oN3ipWV1",
+      "address": "DvYsUxuGntbsHYvjvwmCbS7PUx4gYZxX1cVPdRCYWcg6",
+      "research_score": 44.0,
+      "transactions_analyzed": 40,
+      "swap_count": 10,
+      "buy_events": 1,
+      "sell_events": 3,
+      "realized_pnl_sol": 0.0,
+      "closed_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "data_source": "Helius Enhanced Transactions",
+      "trades": [
+        {
+          "signature": "3niJz2X8MMxtUshTrS8LvFZWXvbEVWcQ6Q2n2STNNaXSAphYGF2JqvkF6Z7bLanZWJnoxR4VVbMrxZtyGTuX3iom",
+          "side": "BUY",
+          "asset": "69L8XDF9ZBC5YJPS3S22",
+          "qty": 15191017.707327,
+          "cost": 3e-06,
+          "cost_asset": "SOL",
+          "timestamp": 1788072236
+        },
+        {
+          "signature": "2ZEMXbRVmGvQbzU9XfeuMizsPtS8mJ3JMcDJfm97DALcM7sdRjD9bruxuFd2vmre8WCWi1z1FP1J6DHShFtvDvgs",
+          "side": "SELL",
+          "asset": "HEGUFNWXGZHEQZSNGZT6",
+          "qty": 7190854.343666,
+          "proceeds": 0.002935615,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788073961
+        },
+        {
+          "signature": "3oMVxtb4SB5sdEWkDxBzt6b9yyR7Mb2nDujK9sY1A6bFAuq5nXmk5qqqNzUhtBWTKz7oAneA2kd9rBZeKvA3oCQU",
+          "side": "SELL",
+          "asset": "HEGUFNWXGZHEQZSNGZT6",
+          "qty": 4314512.606199,
+          "proceeds": 0.001416392,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788074054
+        },
+        {
+          "signature": "5VUxxejcLtR5kEtmuLRFCXgUPQWzVnGkXta9ptQWvXRKnaUpTLTQ9uBvTdB66ETm4Z8wn9p6P6bWxrKmvAEnSqS5",
+          "side": "SELL",
+          "asset": "HEGUFNWXGZHEQZSNGZT6",
+          "qty": 24448904.768463,
+          "proceeds": 0.00213052,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788077122
+        }
+      ],
+      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
+      "discovery_score": 9.4,
+      "protocol_count": 1,
+      "program_activity": {
+        "Pump.fun": 1
+      }
+    },
+    {
+      "address": "Gy37g7iDGQiom6wwVcyHKVuZPZzmVTgwa3wJZQTRqqTH",
+      "research_score": 44.0,
+      "transactions_analyzed": 40,
+      "swap_count": 10,
+      "buy_events": 0,
+      "sell_events": 0,
+      "realized_pnl_sol": 0.0,
+      "closed_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "data_source": "Helius Enhanced Transactions",
+      "trades": [],
+      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
+      "discovery_score": 9.4,
+      "protocol_count": 1,
+      "program_activity": {
+        "Raydium AMM v4": 1
+      }
+    },
+    {
+      "address": "2q6rwywPzrwjgyMejJC3GS3w2whGigBoU28S5mF25Zgu",
+      "research_score": 41.2,
+      "transactions_analyzed": 40,
+      "swap_count": 3,
+      "buy_events": 0,
+      "sell_events": 0,
+      "realized_pnl_sol": 0.0,
+      "closed_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "data_source": "Helius Enhanced Transactions",
+      "trades": [],
+      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
+      "discovery_score": 9.4,
+      "protocol_count": 1,
+      "program_activity": {
+        "Jupiter Swap": 1
+      }
+    },
+    {
+      "address": "BRCLosJNWmRUdWK78tEALMioLszHuWQRvacanfJJifTw",
       "research_score": 40.8,
-      "transactions_analyzed": 4,
+      "transactions_analyzed": 40,
       "swap_count": 2,
       "buy_events": 0,
       "sell_events": 0,
@@ -291,32 +1618,11 @@
       "discovery_score": 9.4,
       "protocol_count": 1,
       "program_activity": {
-        "Jupiter Swap": 1
+        "Pump.fun": 1
       }
     },
     {
-      "address": "En3NPq8o9Cynf1Q3eP69AqZmPKmBaDugYnE832o2YuzP",
-      "research_score": 40.4,
-      "transactions_analyzed": 40,
-      "swap_count": 1,
-      "buy_events": 0,
-      "sell_events": 0,
-      "realized_pnl_sol": 0.0,
-      "closed_trades": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "data_source": "Helius Enhanced Transactions",
-      "trades": [],
-      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 9.4,
-      "protocol_count": 1,
-      "program_activity": {
-        "Jupiter Swap": 1
-      }
-    },
-    {
-      "address": "AjkDC1KdkgPaFRtrCbeSh6B6dhVX2JM4o2XhPSs2qu4b",
+      "address": "3KvsoNxgn64nsuHKPBHQJsguef3DgEkP2izE49k6CSAZ",
       "research_score": 40.0,
       "transactions_analyzed": 40,
       "swap_count": 0,
@@ -330,14 +1636,35 @@
       "data_source": "Helius Enhanced Transactions",
       "trades": [],
       "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 12.2,
+      "discovery_score": 10.8,
       "protocol_count": 1,
       "program_activity": {
-        "Raydium CPMM": 3
+        "Raydium AMM v4": 2
       }
     },
     {
-      "address": "DZJB1dDq55P4U7EHf3Pjhgi5Sa54t7SUR7vWnrRMh9mD",
+      "address": "4YP7YJFDpjJ9DePSH64ouj8cs52CZip7UfCbGBK98Nyg",
+      "research_score": 40.0,
+      "transactions_analyzed": 40,
+      "swap_count": 0,
+      "buy_events": 0,
+      "sell_events": 0,
+      "realized_pnl_sol": 0.0,
+      "closed_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "data_source": "Helius Enhanced Transactions",
+      "trades": [],
+      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
+      "discovery_score": 10.8,
+      "protocol_count": 1,
+      "program_activity": {
+        "Raydium AMM v4": 2
+      }
+    },
+    {
+      "address": "5L7aqweEkQWzogyyqi1xs2oU2ePseSXQnpnxYrg2aBUD",
       "research_score": 40.0,
       "transactions_analyzed": 40,
       "swap_count": 0,
