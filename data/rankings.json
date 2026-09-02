@@ -1,126 +1,114 @@
 {
-  "generated_at": 1788364839,
+  "generated_at": 1788366126,
   "wallets": [
     {
-      "address": "29fjpdRsTTQ5dB2X8tp6taK91UZtg6TGRBhSorv41xSv",
-      "research_score": 56.0,
+      "address": "HaSgw6p1Hvr9e6jtbosUgo5bJ5BDhGmtcNfWG5yGoe76",
+      "research_score": 70.8,
       "transactions_analyzed": 40,
-      "swap_count": 40,
-      "buy_events": 0,
-      "sell_events": 0,
-      "realized_pnl_sol": 0.0,
-      "closed_trades": 0,
-      "wins": 0,
+      "swap_count": 15,
+      "buy_events": 8,
+      "sell_events": 1,
+      "realized_pnl_sol": 1.628552,
+      "closed_trades": 1,
+      "wins": 1,
       "losses": 0,
-      "win_rate": null,
-      "data_source": "Helius Enhanced Transactions",
-      "trades": [],
-      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 9.4,
-      "protocol_count": 1,
-      "program_activity": {
-        "Raydium AMM v4": 1
-      }
-    },
-    {
-      "address": "EicgL2jXFvsLpGTznYMjdsvm7hn11o7Qp7J77XQZWHgM",
-      "research_score": 56.0,
-      "transactions_analyzed": 40,
-      "swap_count": 40,
-      "buy_events": 0,
-      "sell_events": 0,
-      "realized_pnl_sol": 0.0,
-      "closed_trades": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "data_source": "Helius Enhanced Transactions",
-      "trades": [],
-      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 9.4,
-      "protocol_count": 1,
-      "program_activity": {
-        "Raydium AMM v4": 1
-      }
-    },
-    {
-      "address": "86JdbKGcEnGgW49AgDoFHo4z5in7nsPhDhV8upe7XT2x",
-      "research_score": 54.0,
-      "transactions_analyzed": 40,
-      "swap_count": 35,
-      "buy_events": 0,
-      "sell_events": 0,
-      "realized_pnl_sol": 0.0,
-      "closed_trades": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "data_source": "Helius Enhanced Transactions",
-      "trades": [],
-      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 9.4,
-      "protocol_count": 1,
-      "program_activity": {
-        "Pump.fun": 1
-      }
-    },
-    {
-      "address": "BF3Jis43RshMsUkxxGNphANSkQtCkF7T3EaRXyf3XLgc",
-      "research_score": 53.6,
-      "transactions_analyzed": 40,
-      "swap_count": 34,
-      "buy_events": 0,
-      "sell_events": 0,
-      "realized_pnl_sol": 0.0,
-      "closed_trades": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "data_source": "Helius Enhanced Transactions",
-      "trades": [],
-      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 9.4,
-      "protocol_count": 1,
-      "program_activity": {
-        "Pump.fun": 1
-      }
-    },
-    {
-      "address": "8NQ32SyFKD1d5kenq4oM8Da6C6J9TQSMW1uAgFRveEQr",
-      "research_score": 52.0,
-      "transactions_analyzed": 40,
-      "swap_count": 30,
-      "buy_events": 1,
-      "sell_events": 0,
-      "realized_pnl_sol": 0.0,
-      "closed_trades": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
+      "win_rate": 100.0,
       "data_source": "Helius Enhanced Transactions",
       "trades": [
         {
-          "signature": "p2QcEhR212mmpKR5j33gnYCsGFatN6xWYEPwHFX8Mpp8Cb34EDmXMCQ9a7vKL2LTttiE7MVsLPRBQqi83jcrnRs",
+          "signature": "4aXMU34PwPdNfVcbkqseJ4Z4EGMUMB2iJ2e843rA5PrCQoWnYX2dSUZ3GBhkXfFquKRkS5pWdgUBK5QSEn9VGyKu",
           "side": "BUY",
-          "asset": "CBBTC",
-          "qty": 0.0122115,
-          "cost": 943.402231,
-          "cost_asset": "USDC",
-          "timestamp": 1788364709
+          "asset": "9996SZTAUP2NNRKVJN6R",
+          "qty": 31402538.719657,
+          "cost": 0.013764,
+          "cost_asset": "SOL",
+          "timestamp": 1788267283
+        },
+        {
+          "signature": "247cRFeT665EuDGYNUPkJTmHZpecWPxBCDNoycH6gVRssqCzBdbK2W4CwabUCLz9Jht5RLXszyjzFHAPCuTCEG7H",
+          "side": "SELL",
+          "asset": "9996SZTAUP2NNRKVJN6R",
+          "qty": 31402538.719657,
+          "proceeds": 1.642315786,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788267404
+        },
+        {
+          "signature": "BZcoA423KX3Bs3XG4kHcDSomwttiD1fYM8ULoCoCmtvLoutYmN9cWKfmENfWuF2KYcQ5pcPfqzTePV4SijCfQ6E",
+          "side": "BUY",
+          "asset": "ABJATYX6DVQEAN5HRFNK",
+          "qty": 21835031.395437,
+          "cost": 0.003,
+          "cost_asset": "SOL",
+          "timestamp": 1788329287
+        },
+        {
+          "signature": "4E2Hc7b3i8MsEmtWRGkLs5dBG6LX36RpV9syQHB1LFw4Vu7wmHpFnT7aAuk1JfpLSSoxHKJShJVt7LoDmRimCfCZ",
+          "side": "BUY",
+          "asset": "ABJATYX6DVQEAN5HRFNK",
+          "qty": 5284645.221711,
+          "cost": 0.00079,
+          "cost_asset": "SOL",
+          "timestamp": 1788329295
+        },
+        {
+          "signature": "2JKrwEa1yVvKoUAUsus28A9GwX42Xn7AZDLeeoq28YDZFx2d9zj7Do2o4NiL5ofTAJ1iqVzo1hbfbcjcMjVvU4PH",
+          "side": "BUY",
+          "asset": "PRESTOCKS",
+          "qty": 43281397.429176,
+          "cost": 0.003,
+          "cost_asset": "SOL",
+          "timestamp": 1788364020
+        },
+        {
+          "signature": "2pUmKD9rTYJjhHDre5nz59pfr9gaeH4gV8a9ckBK1LFbLmskySe8JTjhCQ5dhx4WHguBL7ub54zcZ3WqWj8zzdzo",
+          "side": "BUY",
+          "asset": "PRESTOCKS",
+          "qty": 21591839.323012,
+          "cost": 0.003,
+          "cost_asset": "SOL",
+          "timestamp": 1788364793
+        },
+        {
+          "signature": "2CFBT1xvfdUvz83LGYWsNog6cPSWk7WTY6a95pLNAx3QPeewZLmsHeCuCnUTq29AY4N8XF12MdYCiHVP4CCSrn6t",
+          "side": "BUY",
+          "asset": "PRESTOCKS",
+          "qty": 20146759.780484,
+          "cost": 0.003,
+          "cost_asset": "SOL",
+          "timestamp": 1788365461
+        },
+        {
+          "signature": "5mWuLbPdEifnQS4wUR4HK8jF3PRGhQWYCqThjBR4u53YLKt7saR5bCXiaAFNbqT569RaRJ3vsNDoEAPC62VzgEnW",
+          "side": "BUY",
+          "asset": "PRESTOCKS",
+          "qty": 6877680.21817,
+          "cost": 0.001,
+          "cost_asset": "SOL",
+          "timestamp": 1788365467
+        },
+        {
+          "signature": "3FmXw3Z2hSipcbiMirdX9LSfKaF74pa9MFHvqYasFjYgEFg5mL7tkXRZCpnBfgcwMHntE23YJTqL7iyEBKV46dEH",
+          "side": "BUY",
+          "asset": "PRESTOCKS",
+          "qty": 3918443.85994,
+          "cost": 0.0006,
+          "cost_asset": "SOL",
+          "timestamp": 1788365576
         }
       ],
       "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
       "discovery_score": 9.4,
       "protocol_count": 1,
       "program_activity": {
-        "Jupiter Swap": 1
+        "Pump.fun": 1
       }
     },
     {
       "address": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-      "research_score": 51.2,
+      "research_score": 53.2,
       "transactions_analyzed": 40,
-      "swap_count": 28,
+      "swap_count": 33,
       "buy_events": 0,
       "sell_events": 0,
       "realized_pnl_sol": 0.0,
@@ -131,175 +119,17 @@
       "data_source": "Helius Enhanced Transactions",
       "trades": [],
       "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 12.2,
+      "discovery_score": 10.8,
       "protocol_count": 1,
       "program_activity": {
-        "Raydium AMM v4": 3
+        "Pump.fun": 2
       }
     },
     {
-      "address": "rWNJUNBMzqSwo22JJ723v3GKUcVgjp7xuZ5iYD8udPX",
-      "research_score": 47.6,
+      "address": "AagkAVcP3QiZcaWgHXom3nasz8f1h8GYMuGVEHPwS2f7",
+      "research_score": 42.4,
       "transactions_analyzed": 40,
-      "swap_count": 19,
-      "buy_events": 1,
-      "sell_events": 6,
-      "realized_pnl_sol": 0.0,
-      "closed_trades": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "data_source": "Helius Enhanced Transactions",
-      "trades": [
-        {
-          "signature": "3mBGiCKKXN4Q8iAwFNxrcjfqnSz2btn1nAwF1Uk3JWakAnd2PeREpEZA9hMrr3cx761PabRAzGyGvRHeWoF1fs3",
-          "side": "SELL",
-          "asset": "EPFTB2XCGIMYGLYKZ9VY",
-          "qty": 5030410.307923,
-          "proceeds": 892.422368,
-          "proceeds_asset": "USDC",
-          "timestamp": 1788180492
-        },
-        {
-          "signature": "4J1annnkTBjNaJRCZbFYgabBTSZq8kr2YcwcdP1nsxb124f6dR79QF7oNqCVeRb2Jtqcv2e2skiV5CHXk3YX66Kt",
-          "side": "SELL",
-          "asset": "EPFTB2XCGIMYGLYKZ9VY",
-          "qty": 3772807.730943,
-          "proceeds": 504.914397,
-          "proceeds_asset": "USDC",
-          "timestamp": 1788183525
-        },
-        {
-          "signature": "2wn1c1VfQkxix7Yuo7egDvS5HFXsDgd3aAnULBfiTcGeQzoPz89AaqgEFC8TXHDLU29sAmAe5gfyr9Hjg8Np12of",
-          "side": "SELL",
-          "asset": "EPFTB2XCGIMYGLYKZ9VY",
-          "qty": 1000000.0,
-          "proceeds": 204.870199,
-          "proceeds_asset": "USDC",
-          "timestamp": 1788183561
-        },
-        {
-          "signature": "46fA7WthAL7MB9YnFeyKFDZRVHcrBNyM9AQZZnAc8vVoGbviJry8jTMhgzGYDBD3UaoyLLCFujUvWQcMUfZEQMDQ",
-          "side": "BUY",
-          "asset": "8WXKVAFENS76YBZU4MNB",
-          "qty": 324750.929911,
-          "cost": 2.4,
-          "cost_asset": "USDC",
-          "timestamp": 1788187560
-        },
-        {
-          "signature": "2xG78yE34DEgaB1jLtSFmZ1cD6kc71kraoTDcUeG8WvHZt5uVUJtyPtDxz9GDpvCGj9iFVNRktQYDChmvAG7Evcb",
-          "side": "SELL",
-          "asset": "A48KEWUUIDSDRQBQAFSS",
-          "qty": 1122287.512517,
-          "proceeds": 273.518117,
-          "proceeds_asset": "USDC",
-          "timestamp": 1788194826
-        },
-        {
-          "signature": "5nDkqowp86GKz1LwrzwUpzewZ2v6YzMNoxe37RTuxem2anjePo5zvGTQ6iMAKuv8785GQPQYZCbHDfUBvnzxupoE",
-          "side": "SELL",
-          "asset": "7LBE787DJ4BXPPIEWLB9",
-          "qty": 2501745.349072,
-          "proceeds": 533.477671,
-          "proceeds_asset": "USDC",
-          "timestamp": 1788194860
-        },
-        {
-          "signature": "4UmMCRrt758giR6uWK4kdLbaU7DWqiBtDP6gKi3GVqrr3QjWroNasSFFpFBLWNmuJPnRBsrEhBi9gVcGEZwf28QM",
-          "side": "SELL",
-          "asset": "UNITY",
-          "qty": 3000000.0,
-          "proceeds": 641.663207,
-          "proceeds_asset": "USDC",
-          "timestamp": 1788197129
-        }
-      ],
-      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 9.4,
-      "protocol_count": 1,
-      "program_activity": {
-        "Jupiter Swap": 1
-      }
-    },
-    {
-      "address": "3XWqsW3t8icye7fczT1kmZL6t6LFw9ozqyVZyHeUpwM1",
-      "research_score": 45.2,
-      "transactions_analyzed": 22,
-      "swap_count": 13,
-      "buy_events": 0,
-      "sell_events": 0,
-      "realized_pnl_sol": 0.0,
-      "closed_trades": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "data_source": "Helius Enhanced Transactions",
-      "trades": [],
-      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 9.4,
-      "protocol_count": 1,
-      "program_activity": {
-        "Pump.fun": 1
-      }
-    },
-    {
-      "address": "B6qq1mapYLRPqYquwAh163VcHsoMvVqHfKR4fLgzfAnh",
-      "research_score": 43.6,
-      "transactions_analyzed": 40,
-      "swap_count": 9,
-      "buy_events": 0,
-      "sell_events": 0,
-      "realized_pnl_sol": 0.0,
-      "closed_trades": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "data_source": "Helius Enhanced Transactions",
-      "trades": [],
-      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 9.4,
-      "protocol_count": 1,
-      "program_activity": {
-        "Pump.fun": 1
-      }
-    },
-    {
-      "address": "BDkTqN7DXkRUKSG63K6f3JZocFu9uvnNS5vdWbPK5SUa",
-      "research_score": 42.8,
-      "transactions_analyzed": 9,
-      "swap_count": 7,
-      "buy_events": 1,
-      "sell_events": 0,
-      "realized_pnl_sol": 0.0,
-      "closed_trades": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "data_source": "Helius Enhanced Transactions",
-      "trades": [
-        {
-          "signature": "67DYtSrNkHiZV583oBVupW7zcr49e4UL4iBFo6SWy5kjRaZTRPXxypi2gcFyWHgf6mCBp3Bmvj4BJu4dX2SoP2jt",
-          "side": "BUY",
-          "asset": "D34DH94MTUA7BDUIHXOS",
-          "qty": 1356.444742,
-          "cost": 0.000248006,
-          "cost_asset": "SOL",
-          "timestamp": 1788364789
-        }
-      ],
-      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 9.4,
-      "protocol_count": 1,
-      "program_activity": {
-        "Jupiter Swap": 1
-      }
-    },
-    {
-      "address": "4JXUHGuc8dDAV35xgMUvAjgQGxC5yRHbAHRaDGvbnPaL",
-      "research_score": 42.8,
-      "transactions_analyzed": 40,
-      "swap_count": 7,
+      "swap_count": 6,
       "buy_events": 0,
       "sell_events": 0,
       "realized_pnl_sol": 0.0,
@@ -317,10 +147,10 @@
       }
     },
     {
-      "address": "6daBBUxMwaVicZeT3K9iRX2kCg8XzpMJVh3CJPakPoWe",
-      "research_score": 40.8,
-      "transactions_analyzed": 7,
-      "swap_count": 2,
+      "address": "5jk34iqTf7wKbzZQJA4cGBUM9hDq5hHTJcT389eFivds",
+      "research_score": 41.6,
+      "transactions_analyzed": 40,
+      "swap_count": 4,
       "buy_events": 0,
       "sell_events": 0,
       "realized_pnl_sol": 0.0,
@@ -338,9 +168,9 @@
       }
     },
     {
-      "address": "9zZu1w91ULX9ZZ8MhVjnnDKVNwv8QE7eWgyzvT65F5wb",
+      "address": "Cgok95C2C9c3DKetxvvV2m4TowvQuZSmgTwgNhcTm6nY",
       "research_score": 40.4,
-      "transactions_analyzed": 40,
+      "transactions_analyzed": 4,
       "swap_count": 1,
       "buy_events": 0,
       "sell_events": 0,
@@ -355,7 +185,28 @@
       "discovery_score": 9.4,
       "protocol_count": 1,
       "program_activity": {
-        "Raydium AMM v4": 1
+        "Pump.fun": 1
+      }
+    },
+    {
+      "address": "GNoYNXQ66dnTqcR39nKi2QJSizjxvHHAy9GSbNszQuuq",
+      "research_score": 40.0,
+      "transactions_analyzed": 40,
+      "swap_count": 0,
+      "buy_events": 0,
+      "sell_events": 0,
+      "realized_pnl_sol": 0.0,
+      "closed_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "data_source": "Helius Enhanced Transactions",
+      "trades": [],
+      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
+      "discovery_score": 20.6,
+      "protocol_count": 1,
+      "program_activity": {
+        "Raydium CPMM": 9
       }
     },
     {
@@ -376,7 +227,49 @@
       "discovery_score": 9.4,
       "protocol_count": 1,
       "program_activity": {
-        "Raydium AMM v4": 1
+        "Pump.fun": 1
+      }
+    },
+    {
+      "address": "7LTGR3ZSSXFWMEwJ5hBJsKoVRLsfUwWNTMn32NkvpQkh",
+      "research_score": 40.0,
+      "transactions_analyzed": 40,
+      "swap_count": 0,
+      "buy_events": 0,
+      "sell_events": 0,
+      "realized_pnl_sol": 0.0,
+      "closed_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "data_source": "Helius Enhanced Transactions",
+      "trades": [],
+      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
+      "discovery_score": 9.4,
+      "protocol_count": 1,
+      "program_activity": {
+        "Pump.fun": 1
+      }
+    },
+    {
+      "address": "CbUpRGKfarYJgQEg8BMCYsLrtFbooQbcZyFkYrF1n4qn",
+      "research_score": 40.0,
+      "transactions_analyzed": 21,
+      "swap_count": 0,
+      "buy_events": 0,
+      "sell_events": 0,
+      "realized_pnl_sol": 0.0,
+      "closed_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "data_source": "Helius Enhanced Transactions",
+      "trades": [],
+      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
+      "discovery_score": 9.4,
+      "protocol_count": 1,
+      "program_activity": {
+        "Pump.fun": 1
       }
     }
   ]
