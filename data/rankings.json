@@ -1,11 +1,11 @@
 {
-  "generated_at": 1788472654,
+  "generated_at": 1788473987,
   "wallets": [
     {
       "address": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-      "research_score": 50.8,
+      "research_score": 50.0,
       "transactions_analyzed": 40,
-      "swap_count": 27,
+      "swap_count": 25,
       "buy_events": 0,
       "sell_events": 0,
       "realized_pnl_sol": 0.0,
@@ -16,31 +16,11 @@
       "data_source": "Helius Enhanced Transactions",
       "trades": [],
       "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 9.4,
-      "protocol_count": 1,
+      "discovery_score": 20.2,
+      "protocol_count": 2,
       "program_activity": {
-        "Pump.fun": 1
-      }
-    },
-    {
-      "address": "AjkDC1KdkgPaFRtrCbeSh6B6dhVX2JM4o2XhPSs2qu4b",
-      "research_score": 40.0,
-      "transactions_analyzed": 40,
-      "swap_count": 0,
-      "buy_events": 0,
-      "sell_events": 0,
-      "realized_pnl_sol": 0.0,
-      "closed_trades": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "data_source": "Helius Enhanced Transactions",
-      "trades": [],
-      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 17.8,
-      "protocol_count": 1,
-      "program_activity": {
-        "Raydium CPMM": 7
+        "Jupiter Swap": 1,
+        "Raydium AMM v4": 2
       }
     }
   ]
