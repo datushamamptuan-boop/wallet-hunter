@@ -1,45 +1,103 @@
 {
-  "generated_at": 1788400752,
-  "candidate_count": 19,
+  "generated_at": 1788403619,
+  "candidate_count": 20,
   "candidates": [
     {
-      "address": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-      "discovery_score": 23.0,
-      "activity_count": 5,
+      "address": "5x2akjXw1aTqzwXUEAjbLnGifTMWytaYw443mFpxPUfK",
+      "discovery_score": 18.8,
+      "activity_count": 2,
       "protocol_count": 2,
       "program_activity": {
-        "Pump.fun": 2,
+        "Pump.fun": 1,
+        "Jupiter Swap": 1
+      },
+      "samples": [
+        {
+          "signature": "3tQkyUphYMMN8M1Jv8ZoJnm1Y3qu3Wpcghr6Vnk5JoDvQSuyoA3inNneFKZLuLXmzAsPX3WPxq2EfwLt6mK7E2N1",
+          "slot": 443860162,
+          "block_time": 1788403559,
+          "program": "Pump.fun"
+        },
+        {
+          "signature": "3tQkyUphYMMN8M1Jv8ZoJnm1Y3qu3Wpcghr6Vnk5JoDvQSuyoA3inNneFKZLuLXmzAsPX3WPxq2EfwLt6mK7E2N1",
+          "slot": 443860162,
+          "block_time": 1788403559,
+          "program": "Jupiter Swap"
+        }
+      ]
+    },
+    {
+      "address": "DEM7JJFjemWE5tjt3aC9eeTsGtTnyAs95EWhY2bM6n1o",
+      "discovery_score": 16.4,
+      "activity_count": 6,
+      "protocol_count": 1,
+      "program_activity": {
+        "Jupiter Swap": 6
+      },
+      "samples": [
+        {
+          "signature": "5zfjvwGsZU3r5HFUwCiEdk2zdwEq5ch3qxMm16BvmGoaa5C8tNFh2octUDJ2NnRcZrjEo7akXsuS3fG2kQ6kWNR7",
+          "slot": 443860162,
+          "block_time": 1788403559,
+          "program": "Jupiter Swap"
+        },
+        {
+          "signature": "2XZkA3BcVuGRPqq9F3i4NAJDy6TvYUutFePfg3i1crUxftBWLafXAbHju4BBtjKTHT59PPokvpXbwT3Cn6RtT1PA",
+          "slot": 443860162,
+          "block_time": 1788403559,
+          "program": "Jupiter Swap"
+        },
+        {
+          "signature": "5hPcEgTuTkjkrPgr3iHcL5jzLpqUvYA5aDLxgeLxatEsea9MbFs76awkVe3NinQC1R9rSU1S5PDaGMG7K1ZxiSCf",
+          "slot": 443860162,
+          "block_time": 1788403559,
+          "program": "Jupiter Swap"
+        },
+        {
+          "signature": "KeQZYDwM1aWzAL7eSkpveN1hwrh9EGtedsqTGvV7xCmjTFABeqvSFsme3aYJJRR96iu5AWFFjYwhfKCx3Q9qsGs",
+          "slot": 443860162,
+          "block_time": 1788403559,
+          "program": "Jupiter Swap"
+        },
+        {
+          "signature": "55m3SSVE3XRLRLbVFPjwPB9CVz6vRdRBBDUXcWtDBchnHLoNg32L4f96ru9r4Gf4Dt4adG56wA8BTfRYqfdCSZ7",
+          "slot": 443860161,
+          "block_time": 1788403559,
+          "program": "Jupiter Swap"
+        },
+        {
+          "signature": "4t43EsL3uYSeMeT2KP2HoDrwQqYu69ymgaxmPjYDorddPSDWAYY2zqzRB5fc18N5NJuEjbpi7KMCWpMPPhUhRiEx",
+          "slot": 443860161,
+          "block_time": 1788403559,
+          "program": "Jupiter Swap"
+        }
+      ]
+    },
+    {
+      "address": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
+      "discovery_score": 12.2,
+      "activity_count": 3,
+      "protocol_count": 1,
+      "program_activity": {
         "Raydium AMM v4": 3
       },
       "samples": [
         {
-          "signature": "5v4hkLq4F6GFJsfbWc8FFgHhsBBRjjcG9w5vRBqjP4qnwCijD7G4CJau1YkavkTrDefJ36VpnmkHMma5FP6Z3BMZ",
-          "slot": 443851053,
-          "block_time": 1788400692,
-          "program": "Pump.fun"
-        },
-        {
-          "signature": "4fL8kAMRSN9w5BxrPrFpRisxfrcxANqiuNHp8XfE7GWwJVca1NRN6G5orw2Hr4p4T5kwpHEgyNBUnVbmjuyWkA6L",
-          "slot": 443851052,
-          "block_time": 1788400692,
-          "program": "Pump.fun"
-        },
-        {
-          "signature": "2WqSfQ1B21iSiKrd71P2FkTVdtCjADdFafhBmxq8yZBUvAFeA6gn7F3Gu3jchZVhQr2CVsnMtPvJ3VSfxQYyhH2m",
-          "slot": 443851174,
-          "block_time": 1788400731,
+          "signature": "26GvNFLR2S1FsP8dQLjMDTU3vzjscKkFPsWeogdnrVappYezq7bUpFWnTVkkQG8kfxK13M6s38a75McybEv7SpDL",
+          "slot": 443860228,
+          "block_time": 1788403580,
           "program": "Raydium AMM v4"
         },
         {
-          "signature": "5ccswLjeNgRjs8gFcrqCRCkor7sTsoYn2R7C4YxnYnesC7tTsqXyUbTRj9j6duzCJAEmmSLEYK7iK688htZri2HE",
-          "slot": 443851174,
-          "block_time": 1788400731,
+          "signature": "4YtVMGL6HqdCGnGJWVnsRYWzqgyTsGfQYPLQ3vqKhHUzRE9h1tUAnFQXVJ9nVkaaJoDaFgnc9nknfJBExRv1Cq56",
+          "slot": 443860228,
+          "block_time": 1788403580,
           "program": "Raydium AMM v4"
         },
         {
-          "signature": "48YzgNTdSVtBqrot8m5Qp3Lf64KQZQYqxqE4ntcSuvZiAbE27EsbxWuxtwTfNZiFyjMAaGNZqjoj55DaYyBxUrDC",
-          "slot": 443851164,
-          "block_time": 1788400728,
+          "signature": "5wJBujTgnjMywLS73Uwi4DsSSfMknzjdz1rhaFzQBUHEUJhoHuLFENdx6YhEjdsufqjQw54rHQ2ELDGzHvPXH2Vj",
+          "slot": 443860227,
+          "block_time": 1788403579,
           "program": "Raydium AMM v4"
         }
       ]
@@ -54,67 +112,21 @@
       },
       "samples": [
         {
-          "signature": "2WUTcz4YNCf9HAzkuneRPTa85JdPc5vW7GqfK2fH2qccTx38NzyVAoL8bYa1GCKWNzH1SaM6ELaF7Kqnvgr2HHQU",
-          "slot": 443851054,
-          "block_time": 1788400693,
+          "signature": "2bTq1GivbmPjv4sXkw9NU9cQyw4QUeJqqJhUE1scsa4o4NsPKjWGofUHbE954tQjTwfj3snKm6Qa46jaQp6Qby5d",
+          "slot": 443860162,
+          "block_time": 1788403559,
           "program": "Pump.fun"
         },
         {
-          "signature": "4tB7E3Bc52m8TaKHULUqE8k59ZKBNGM4hSMuyQb4WZN4DFyKfJeuvd6zPRpQH65in3zHZJqUwDnsZS4BsPcHtC1W",
-          "slot": 443851051,
-          "block_time": 1788400692,
+          "signature": "5QFTWrJp2jEEdoF7kyBgheuC52bHfGQHRTnCnbzVvw7D6u3kwGn8Pfu7eiiH1tbmAgMbThERH98NSR9yzdkwjKUN",
+          "slot": 443860162,
+          "block_time": 1788403559,
           "program": "Pump.fun"
         }
       ]
     },
     {
-      "address": "ExYDCa8Gvw8VynhG9SWNKK9k5gg4FpYtf1cF3BUhiDgo",
-      "discovery_score": 10.8,
-      "activity_count": 2,
-      "protocol_count": 1,
-      "program_activity": {
-        "Jupiter Swap": 2
-      },
-      "samples": [
-        {
-          "signature": "sME3QxKos1skpSLeoih4ZNZjuUGSctQEqzACPf7MNYnMaKXYsgAN1wawqtVy3xPqEVb9kZNtPPquVAV81ahboxn",
-          "slot": 443851103,
-          "block_time": 1788400709,
-          "program": "Jupiter Swap"
-        },
-        {
-          "signature": "2bQavgukRoUHDRMKiNSrgAaW7ZRbfKDf74jeDW8ayW9mekJDr77hnx23WdoPzBoaZSRK4ZtxwYjtvgQMP1B5WGJA",
-          "slot": 443851103,
-          "block_time": 1788400709,
-          "program": "Jupiter Swap"
-        }
-      ]
-    },
-    {
-      "address": "GnKh9NsweAHU2M2swzLtWQuZfewCHLkjM3KDHcNajjpn",
-      "discovery_score": 10.8,
-      "activity_count": 2,
-      "protocol_count": 1,
-      "program_activity": {
-        "Raydium AMM v4": 2
-      },
-      "samples": [
-        {
-          "signature": "3dBYd32mYMsdevgbWx4CCf44Nop7JcCtYmYv3nY21Aad59UWhFgkuJEVjAwvd6aiBULKTyx7yqLmLViAy8Z2AVbt",
-          "slot": 443851174,
-          "block_time": 1788400731,
-          "program": "Raydium AMM v4"
-        },
-        {
-          "signature": "2QaEWAMBrKP56W2k1jJFD7P88tmefFhmAPYNAhkg34FeEceQULnU65h2d62i45ELjTMuQMcUD2yi8hZdcpdzgctb",
-          "slot": 443851174,
-          "block_time": 1788400731,
-          "program": "Raydium AMM v4"
-        }
-      ]
-    },
-    {
-      "address": "FRxgt14uG5xmAJJvQKDUKuEV8PBvyi1kCCmDw5A6N3j7",
+      "address": "B16EXDr7ENUbKRnBqdAZykWi8Js84qbQEuJuFCZY3SCM",
       "discovery_score": 9.4,
       "activity_count": 1,
       "protocol_count": 1,
@@ -123,15 +135,15 @@
       },
       "samples": [
         {
-          "signature": "4pxcnwoxPWdajoNXjnKfeGdYmLBeQWa2yJB7rJKCjAkbPxUKR6pLTSYVHUmYMBLUCY2SRE4tx6c13H3kbCHNC7wg",
-          "slot": 443851054,
-          "block_time": 1788400693,
+          "signature": "5H2uX1XUmKycezJ1HZPEPbB6fzt1LG3CvDQN3JSAGc1xXM2uSiJde9wAW82DMgpCH1VGsxFjGt151CqyxTA6bL1Y",
+          "slot": 443860162,
+          "block_time": 1788403559,
           "program": "Pump.fun"
         }
       ]
     },
     {
-      "address": "9NyCu7bzxepa2qq9KZWq5DUmdGxXTMr36aLiYaGb2mcx",
+      "address": "G7xugqGo1iTn3DqyHdxxfs4ZFPTbwTBhrp1XKL8Pe7mH",
       "discovery_score": 9.4,
       "activity_count": 1,
       "protocol_count": 1,
@@ -140,15 +152,15 @@
       },
       "samples": [
         {
-          "signature": "ouqSE7zjCH2X42MMLkkTjduUEvhirsEYKC2tBs7wJoerRsRTScM7EzisXNJXap1Nmon8DfzWQQtgwA1JmsGRUyM",
-          "slot": 443851054,
-          "block_time": 1788400693,
+          "signature": "4ZKLgyeXSiju5BwyRn6gVaY4T9jvHCDQ1dvyfXjaMBdR64BbByJo3qA31Pg5z5YxGvfYmzzK4iKinQ6PTVS1jttT",
+          "slot": 443860162,
+          "block_time": 1788403559,
           "program": "Pump.fun"
         }
       ]
     },
     {
-      "address": "9JYfJThRHQfWByxQ4Ni3nuPu8GFHVeEpc95x2d91F6FN",
+      "address": "EsbJ3t6wYPd7A4DZLP4zfudoKrFypXk8fsqCNxynRKKb",
       "discovery_score": 9.4,
       "activity_count": 1,
       "protocol_count": 1,
@@ -157,15 +169,15 @@
       },
       "samples": [
         {
-          "signature": "CQE4yx5deRNZzupLpV3cGFiAC2bDThVDBhi8VaqDeZ2rcKe1CwJTHbWxhKERdNHf1Mx1KtzrRhBZyLiLmqqAkPH",
-          "slot": 443851053,
-          "block_time": 1788400692,
+          "signature": "3yaPBU16ZvvwLg1sWERbrhKCL6M3vwySt1Bz3TS8X79P4SLADxcgBP9TJCoMocRzHK36PWPijVfSkkURc8iefXMp",
+          "slot": 443860162,
+          "block_time": 1788403559,
           "program": "Pump.fun"
         }
       ]
     },
     {
-      "address": "9DkczYGWkKcoer2zRpjg6Cy1e5Rn7X7dPJibA9LKm8kT",
+      "address": "6kVeQugGKQmjDDXq52aDB7kwUURshbkcEpxL4zmd4jx2",
       "discovery_score": 9.4,
       "activity_count": 1,
       "protocol_count": 1,
@@ -174,15 +186,15 @@
       },
       "samples": [
         {
-          "signature": "36NuNMk6M1ykR9HZoVZ6VEEFXzsufaQ6LXb4x4KVVaMnsWwxi24HB2JTvA2kdNmLNC3x67R1jPaewyqHDECssKBr",
-          "slot": 443851051,
-          "block_time": 1788400692,
+          "signature": "2fw56ViCq6vmZz5dKLNXhC3fqrcPkiCKVF2sXyw2oqku9FTJpGkVKM1ySvBAJTkwhwFByWs6ihnpSrLgpzH7pbpY",
+          "slot": 443860162,
+          "block_time": 1788403559,
           "program": "Pump.fun"
         }
       ]
     },
     {
-      "address": "8eJNxAt2ty8G1V5xnYMrhJVH5RNUiBzBCaQ2mGgVjgtA",
+      "address": "BjLfbAzghGiMVJjis6SFjBu92t6qHeKntC5faBiYtHoJ",
       "discovery_score": 9.4,
       "activity_count": 1,
       "protocol_count": 1,
@@ -191,15 +203,32 @@
       },
       "samples": [
         {
-          "signature": "5RdbZamYDP1BKjgPa782eWpQLRbmrRTh9vkri9LG7Gh1zAvDREQwPBPAtubTsZmt1aukyF7W9FJucE3SsmYiTtq3",
-          "slot": 443851051,
-          "block_time": 1788400692,
+          "signature": "2RbVA771aNyczXf43LHdWYb6HHTN8Z61EJyRs8z1pAekcRp8715hYgqiVA4DNNVbVmvr5is2Ba3pJFhEpgaJJh8w",
+          "slot": 443860162,
+          "block_time": 1788403559,
           "program": "Pump.fun"
         }
       ]
     },
     {
-      "address": "o721mrttB9kBELuCaiiAE2e6EaahkmmspY6Xyo4t9EW",
+      "address": "HMPuNrBxSUpKxssc7GTLmk9kudfySP91b3p7fn914Xxh",
+      "discovery_score": 9.4,
+      "activity_count": 1,
+      "protocol_count": 1,
+      "program_activity": {
+        "Pump.fun": 1
+      },
+      "samples": [
+        {
+          "signature": "3fGbo1MtEFDGqYNQzQAp84NC3Kthi3BKKMJo7bDx3E7fcwMbzhY8d5MCUGfPurcrpJZYCcavr2K2XdAmdFKMoDd8",
+          "slot": 443860162,
+          "block_time": 1788403559,
+          "program": "Pump.fun"
+        }
+      ]
+    },
+    {
+      "address": "5Xb6Ecieaw6KufebzX1pnXAgAX8J71NpbjcQghA3zt81",
       "discovery_score": 9.4,
       "activity_count": 1,
       "protocol_count": 1,
@@ -208,15 +237,15 @@
       },
       "samples": [
         {
-          "signature": "nWekwqm79uaohj6jxhesHPFUUoaArmkV8Xq9SLWaSix7oHArA8Fzy5oXTpzW5mPzZ2xbFSBE4SYQujcQKArKpJE",
-          "slot": 443851103,
-          "block_time": 1788400709,
+          "signature": "5RhJAAEgz1JvAmD7WmmCL4KEwaKtJ1TvyZ8Pp6kex2PJumsYMaZdryCMhRt8rrQAxLL37tX4JH8okMG45SqHki2C",
+          "slot": 443860162,
+          "block_time": 1788403559,
           "program": "Jupiter Swap"
         }
       ]
     },
     {
-      "address": "MenuxY5yMzJkeKZTvDTcovjh4fuJHMHhJyjJ5v5LzG6",
+      "address": "5K4xjggUierz3LExb6LC2V82wfZtfAZZa9WXk9Fzy3Tf",
       "discovery_score": 9.4,
       "activity_count": 1,
       "protocol_count": 1,
@@ -225,83 +254,15 @@
       },
       "samples": [
         {
-          "signature": "5waQY9hDbsfKbsTvDpfAqzpmV9KGewLYTvx7LsFojqzCedMR2rndZVX2JJP32kWW6Hu5buiNd1ZjfCuYYaL77XgA",
-          "slot": 443851103,
-          "block_time": 1788400709,
+          "signature": "Gt9cVWi2peCmRATKEiF2EarTTgN87aPUxJ2U3uXEdMEpUysYsWEoGzxdYD19vU5AyRCGF3GeYjfkcC5TbxTGMsB",
+          "slot": 443860161,
+          "block_time": 1788403559,
           "program": "Jupiter Swap"
         }
       ]
     },
     {
-      "address": "4QwBfjTZ8tiBdwpRp7QBZaz6tAvwGJv6ev8nuxBArKnG",
-      "discovery_score": 9.4,
-      "activity_count": 1,
-      "protocol_count": 1,
-      "program_activity": {
-        "Jupiter Swap": 1
-      },
-      "samples": [
-        {
-          "signature": "T5ju9MVZg2kjDUiJNpVVKJwYY5pcan8cS1AbvvE35LR15Y4MRFk9CadVA3221n2EYEY2NrVtkcN1HYa6M71TZAi",
-          "slot": 443851102,
-          "block_time": 1788400708,
-          "program": "Jupiter Swap"
-        }
-      ]
-    },
-    {
-      "address": "GUGb1KSLYa7Dai5qn2vNRXA8dwCsQbqWJ6sMyYccd6q1",
-      "discovery_score": 9.4,
-      "activity_count": 1,
-      "protocol_count": 1,
-      "program_activity": {
-        "Jupiter Swap": 1
-      },
-      "samples": [
-        {
-          "signature": "4apbsCy9mj348UdevQ2mdWGM2SvFbijS27mXU1fNZUGywKiPtm9AT1PanhK7urNmvsmifiGNx5gwi91R2UuhPGhn",
-          "slot": 443851102,
-          "block_time": 1788400708,
-          "program": "Jupiter Swap"
-        }
-      ]
-    },
-    {
-      "address": "3y5u6tGmYwoFpLgfRYcjxRLj6g4FYHfoG3Z3g4ChGas5",
-      "discovery_score": 9.4,
-      "activity_count": 1,
-      "protocol_count": 1,
-      "program_activity": {
-        "Jupiter Swap": 1
-      },
-      "samples": [
-        {
-          "signature": "4zhLGUVP156p7UMzjUtVZFXHEPSuqudTpVZbycAoqrguFWGzznrrrUn2yNvvHpUcEfAvSJ2s76zhuLqZnLf5wmmo",
-          "slot": 443851102,
-          "block_time": 1788400708,
-          "program": "Jupiter Swap"
-        }
-      ]
-    },
-    {
-      "address": "6xzJicGpgMVhWuF2b6LPsExknLXUoZ8YE6antN4Hsghf",
-      "discovery_score": 9.4,
-      "activity_count": 1,
-      "protocol_count": 1,
-      "program_activity": {
-        "Jupiter Swap": 1
-      },
-      "samples": [
-        {
-          "signature": "5dhguAgLtwANsjZi4t82FqpNzTsJWFWTAETmnGw64yYUHmGApi4BYNgMTrvNFyGE68oMKkKoLGvkbo3jdRrh5n5E",
-          "slot": 443851102,
-          "block_time": 1788400708,
-          "program": "Jupiter Swap"
-        }
-      ]
-    },
-    {
-      "address": "HATahubiEPkBLn8Pri5MjzGp9sQ91rFM1tszzkARPkz1",
+      "address": "JAS6J9agMnsdaiLhE5TYaHKPwiw7kMV7rZDQxR9k5JWi",
       "discovery_score": 9.4,
       "activity_count": 1,
       "protocol_count": 1,
@@ -310,15 +271,15 @@
       },
       "samples": [
         {
-          "signature": "4udezYf5hcWJsBRDcYCxsCnXDpMTv7pbJPjMPC4sbfhk3cJ22TzdKtZwzzKfkbHpYQTWMQe4im5vpvygcEXPqUyd",
-          "slot": 443851174,
-          "block_time": 1788400731,
+          "signature": "4Yx9fVTdnpUTcz9PP1HYMpEgzsisg3jCY54Yw51QvgWbeSE2FiwEgoCup8xY8bxN1rkX1HRgq8ayQUyKZqthduyB",
+          "slot": 443860228,
+          "block_time": 1788403580,
           "program": "Raydium AMM v4"
         }
       ]
     },
     {
-      "address": "AcMZ64pZKuUxwQzKVKGJNd237pHyjbnDUMgNoGMad2Rf",
+      "address": "8HipezNxcX1V5K4vbKcZqaMj4KXmTNkhvVGihRHNFkSz",
       "discovery_score": 9.4,
       "activity_count": 1,
       "protocol_count": 1,
@@ -327,15 +288,15 @@
       },
       "samples": [
         {
-          "signature": "4bqnkVq55nBKjChrjftSjKFrsuJDaHQrCQLzPGgbn8GdMqLpoTYfYT9reixH1m7PYp2rLQYHk1xUYxx6ozXEsQvb",
-          "slot": 443851174,
-          "block_time": 1788400731,
+          "signature": "4dyhBSnAPC7joTYkBhnxTLoh9gCb7zCokNV14ibw6gK7fXeWV6Sd2Db1mx5aHS6vjn3UzQ9R2oP3De7sKCmTPvFW",
+          "slot": 443860228,
+          "block_time": 1788403580,
           "program": "Raydium AMM v4"
         }
       ]
     },
     {
-      "address": "DiBiwF5kwvhFc5EGkXE6Pje3XoqMmWjvE9MVtXjZhfft",
+      "address": "G18LJP8ytvhGGBXzyBkVsbMk8K6GAgDfa3nqB4giTKrx",
       "discovery_score": 9.4,
       "activity_count": 1,
       "protocol_count": 1,
@@ -344,15 +305,15 @@
       },
       "samples": [
         {
-          "signature": "H3f4WqmB7vmStmm4DLx4vxQE7oGkCLXVTSFQ3jKnXrdF67kSvWqMXdn4fNAV75d9FTKv6re9GnqiMAtBG9HertE",
-          "slot": 443851174,
-          "block_time": 1788400731,
+          "signature": "5Jw3iWiTNMbhjiHtejVfx3TfTc1R9bLTc9NtHW8uE2bxCCsyBHxWsa5ShpurQtEoTdVRXb5sjPBxSxtFcakQjzVA",
+          "slot": 443860227,
+          "block_time": 1788403579,
           "program": "Raydium AMM v4"
         }
       ]
     },
     {
-      "address": "5d4GqB5Fj4oscQPEjhsornp8WGfqqAGeAacKUhcQWPw8",
+      "address": "GNaMoUSH2EeUaPniqpoDJ6reutKb2VDUCJXhuef8ghww",
       "discovery_score": 9.4,
       "activity_count": 1,
       "protocol_count": 1,
@@ -361,10 +322,78 @@
       },
       "samples": [
         {
-          "signature": "4agTkHppNeHXxvRZK3ea1D6sCB2PJn1DttHL3CSeQi8YijkB2MQExewAi9HsJ7b63EXd2ie6WsiMr4zTHPijLRqH",
-          "slot": 443851173,
-          "block_time": 1788400730,
+          "signature": "4KJC5uRju7Bjd62NaqLyBciuoZTDJM4woX3Jztha41rHdHvatvJXAvxUVW5WMZtMG4ydqgqYK2KZ9hot8TA2vFAD",
+          "slot": 443860227,
+          "block_time": 1788403579,
           "program": "Raydium AMM v4"
+        }
+      ]
+    },
+    {
+      "address": "EVRYSFPzv8BUGi5XmnsD7Vig1Y746WtMtMS6jAD8W8ZS",
+      "discovery_score": 9.4,
+      "activity_count": 1,
+      "protocol_count": 1,
+      "program_activity": {
+        "Raydium AMM v4": 1
+      },
+      "samples": [
+        {
+          "signature": "4f8NUGyGKft9jAMdXfRB9stm2cFJwqGR9m4FuDgfNtiPVwiuJKyPDiyXpaxCy2rj1RmoMwzbDtgiAPbFbkLvuR3Z",
+          "slot": 443860225,
+          "block_time": 1788403579,
+          "program": "Raydium AMM v4"
+        }
+      ]
+    },
+    {
+      "address": "DQCA7ZCJbiSDq3ga8rxR2gTuVCG6e2aa7KKE1iBcTysN",
+      "discovery_score": 9.4,
+      "activity_count": 1,
+      "protocol_count": 1,
+      "program_activity": {
+        "Raydium AMM v4": 1
+      },
+      "samples": [
+        {
+          "signature": "33eBwBN8iRua3K6VaXbVkchiQcfcCTzXQKispKq6VKRAVSZ2oCY21Y2WeVpDUtMEemzaunhEsJTjmK97Y73QSkdx",
+          "slot": 443860225,
+          "block_time": 1788403579,
+          "program": "Raydium AMM v4"
+        }
+      ]
+    },
+    {
+      "address": "8TPWakvWw4xQbk7uAYdNjZiDKKHgv9GE5GebzsbtUaHr",
+      "discovery_score": 9.4,
+      "activity_count": 1,
+      "protocol_count": 1,
+      "program_activity": {
+        "Raydium CPMM": 1
+      },
+      "samples": [
+        {
+          "signature": "5kMnXBwxgtaZu91ynLzMtxT7sBfVW9Y49ZaSdv1Xv6hJuYxb7Bu1KvvXA89Pi3Rjdy3Ay7LvjEU9VzkqYEjSMrx3",
+          "slot": 443860343,
+          "block_time": 1788403616,
+          "program": "Raydium CPMM"
+        }
+      ]
+    },
+    {
+      "address": "AXmnRBrNtYYyyo82cLBBhnWJ7o1iqNLZbuEVpDB3V666",
+      "discovery_score": 9.4,
+      "activity_count": 1,
+      "protocol_count": 1,
+      "program_activity": {
+        "Raydium CPMM": 1
+      },
+      "samples": [
+        {
+          "signature": "478kg9isWeSkxaMSrQr3fZPXw8niRusUpyMspwKsNoeKsFQKR4Jo79WEBXT6wgjmL9TX8x53VNgVwcKWmz7bTQRo",
+          "slot": 443860343,
+          "block_time": 1788403616,
+          "program": "Raydium CPMM"
         }
       ]
     }
