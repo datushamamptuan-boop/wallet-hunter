@@ -1,45 +1,25 @@
 {
-  "generated_at": 1788524772,
+  "generated_at": 1788526248,
   "wallets": [
     {
-      "address": "R32xAccFis3YzBzGwZ1C4QkGiehLxSao7gDmErA3kjk",
-      "research_score": 44.0,
+      "address": "29eV5LuZwwVaoufKr5ShBejYVP6N4JZ14U3M5rffXsjp",
+      "research_score": 43.2,
       "transactions_analyzed": 40,
-      "swap_count": 10,
-      "buy_events": 1,
-      "sell_events": 1,
+      "swap_count": 8,
+      "buy_events": 0,
+      "sell_events": 0,
       "realized_pnl_sol": 0.0,
       "closed_trades": 0,
       "wins": 0,
       "losses": 0,
       "win_rate": null,
       "data_source": "Helius Enhanced Transactions",
-      "trades": [
-        {
-          "signature": "2Gi3mqK5Z58w4dSnvfbv3YuH4b1e9hAiKWVgERW4EfmGRXk1ZLHAs5Nd2m6uHdPAVLSPmB3DvoM81AkRRPavSxNo",
-          "side": "BUY",
-          "asset": "AVA",
-          "qty": 0.79997769,
-          "cost": 0.001269209,
-          "cost_asset": "SOL",
-          "timestamp": 1788524729
-        },
-        {
-          "signature": "26WJ7Bz5yw8jHSYbG3n8CQcDp2U79NTD5cYyET5yjtEPXhkEtx5uGZJXjfAY32DAN9BXDBf4gTRFzUBwL3iy2sy4",
-          "side": "SELL",
-          "asset": "FATGF",
-          "qty": 50107.298557,
-          "proceeds": 0.048655084,
-          "proceeds_asset": "SOL",
-          "timestamp": 1788524765
-        }
-      ],
+      "trades": [],
       "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 18.8,
-      "protocol_count": 2,
+      "discovery_score": 10.8,
+      "protocol_count": 1,
       "program_activity": {
-        "Raydium AMM v4": 1,
-        "Raydium CPMM": 1
+        "Jupiter Swap": 2
       }
     }
   ]
