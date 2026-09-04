@@ -1,4 +1,54 @@
 {
-  "generated_at": 1788537454,
-  "wallets": []
+  "generated_at": 1788538902,
+  "wallets": [
+    {
+      "address": "GJvewfRjqTUPtx6WsBSUnaFbdgXwgXnWfpDyLm65T4YA",
+      "research_score": 42.8,
+      "transactions_analyzed": 40,
+      "swap_count": 7,
+      "buy_events": 3,
+      "sell_events": 0,
+      "realized_pnl_sol": 0.0,
+      "closed_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "data_source": "Helius Enhanced Transactions",
+      "trades": [
+        {
+          "signature": "4DV6uGqQ8KmAiedjfd4XeoY39C8rM5JzHitCbbpVNnF6WPcmWrjaJcM8rphoVZAnYRJDvFsAFGLkhCjP2XaLDrir",
+          "side": "BUY",
+          "asset": "PUMPCMXQMFRSAKQ5R49W",
+          "qty": 61962.759085,
+          "cost": 266.401502,
+          "cost_asset": "USDC",
+          "timestamp": 1788538883
+        },
+        {
+          "signature": "64Qhg7yVSsmz4b5x1RSeye5H9RbFvhJzXw3DLYRKZoDV27pHEUmaKZVy9tADqgEFhzTeD6Ff4QPPNgxNDDi4bJC9",
+          "side": "BUY",
+          "asset": "PUMPCMXQMFRSAKQ5R49W",
+          "qty": 38688.888671,
+          "cost": 166.50145,
+          "cost_asset": "USDC",
+          "timestamp": 1788538885
+        },
+        {
+          "signature": "4xBJDjC5yPirmaVTkRAmDMBJuFT5eUVHzkHUK41ionSqp6xNT2ons8pcXzRwuoDLhbmdhCEuqPwUQNL9DSYT9JAK",
+          "side": "BUY",
+          "asset": "PUMPCMXQMFRSAKQ5R49W",
+          "qty": 38682.650124,
+          "cost": 166.501304,
+          "cost_asset": "USDC",
+          "timestamp": 1788538892
+        }
+      ],
+      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
+      "discovery_score": 17.8,
+      "protocol_count": 1,
+      "program_activity": {
+        "Jupiter Swap": 7
+      }
+    }
+  ]
 }
