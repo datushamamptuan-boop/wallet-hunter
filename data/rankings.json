@@ -1,11 +1,11 @@
 {
-  "generated_at": 1788500726,
+  "generated_at": 1788501455,
   "wallets": [
     {
-      "address": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
-      "research_score": 49.2,
+      "address": "Gygj9QQby4j2jryqyqBHvLP7ctv2SaANgh4sCb69BUpA",
+      "research_score": 55.2,
       "transactions_analyzed": 40,
-      "swap_count": 23,
+      "swap_count": 38,
       "buy_events": 0,
       "sell_events": 0,
       "realized_pnl_sol": 0.0,
@@ -19,7 +19,56 @@
       "discovery_score": 10.8,
       "protocol_count": 1,
       "program_activity": {
-        "Raydium AMM v4": 2
+        "Pump.fun": 2
+      }
+    },
+    {
+      "address": "9C6A9o9VR8NZdpJRnLhP2EYV2vEJsDYAaE6D3yHXUiLd",
+      "research_score": 42.0,
+      "transactions_analyzed": 40,
+      "swap_count": 5,
+      "buy_events": 0,
+      "sell_events": 3,
+      "realized_pnl_sol": 0.0,
+      "closed_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "data_source": "Helius Enhanced Transactions",
+      "trades": [
+        {
+          "signature": "5ndxqrQ5sFFxExYcab49TLEuVg93ubY4b1r9Z9azDGsNLcK8zqjH3ouMPBASQZGC69pfSowkQBxQUt15opT1mY8u",
+          "side": "SELL",
+          "asset": "HYPE",
+          "qty": 0.413193148,
+          "proceeds": 35.502133,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788500993
+        },
+        {
+          "signature": "KkwXG3BoPY3KFxfD1HWiFv8AmXF8kYAHrBjmaURUrCHZFJBNJzzxyYimiaUZmpiuqJy3XzDQ2CzLRpRs2SnmLkC",
+          "side": "SELL",
+          "asset": "ZEC",
+          "qty": 0.09214,
+          "proceeds": 88.012441,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788501009
+        },
+        {
+          "signature": "3M7sgWJvHHcPuoi7eoyit8RMAuxoHWweKCpUZRL2gfdARoGLTfLPntbBCkenkpFv9KpPg6yZBJgdfKgUrJpTqK6Z",
+          "side": "SELL",
+          "asset": "CBBTC",
+          "qty": 0.00156775,
+          "proceeds": 126.788714,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788501266
+        }
+      ],
+      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
+      "discovery_score": 10.8,
+      "protocol_count": 1,
+      "program_activity": {
+        "Jupiter Swap": 2
       }
     }
   ]
