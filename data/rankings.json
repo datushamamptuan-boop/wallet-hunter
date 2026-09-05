@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788605879,
+  "generated_at": 1788607093,
   "wallets": [
     {
-      "address": "FrhLfj81LRpMR3EwSSCGPzHmxsnoq8h628ne68vK5oMN",
-      "research_score": 48.4,
+      "address": "Aet81p95mmuKjmMZPqDPmnupgU6RmQT3MmM4JojBEcst",
+      "research_score": 40.0,
       "transactions_analyzed": 40,
-      "swap_count": 21,
-      "buy_events": 4,
+      "swap_count": 0,
+      "buy_events": 0,
       "sell_events": 0,
       "realized_pnl_sol": 0.0,
       "closed_trades": 0,
@@ -14,50 +14,12 @@
       "losses": 0,
       "win_rate": null,
       "data_source": "Helius Enhanced Transactions",
-      "trades": [
-        {
-          "signature": "627k2dh9xpYpBQ4y2Q8hW4nkkwe3XgQVZ2SwJphNuWrCCmDnKEkf2G8peAThR2CWEd8C2GSyA5inGRonfbArKNci",
-          "side": "BUY",
-          "asset": "PENGU",
-          "qty": 41916.396211,
-          "cost": 3.524475775,
-          "cost_asset": "SOL",
-          "timestamp": 1788605807
-        },
-        {
-          "signature": "31xdBmG63qvEBVGRmPvsFzXBR8wpwNq9assPqg2uaZEJo7xLsoDMFfcwNFBKjpDY5TTCU8S9qsxW945rqc8DBs3X",
-          "side": "BUY",
-          "asset": "PENGU",
-          "qty": 41918.810152,
-          "cost": 3.526376304,
-          "cost_asset": "SOL",
-          "timestamp": 1788605816
-        },
-        {
-          "signature": "2Rfwm2gnAJVAAB2sG7fjsFwWWyDLtned7j9nTEqrhAxxGFXQYV3EyezrPobj5Wm8SYvExSwb9DU82tkqXgdZsTZH",
-          "side": "BUY",
-          "asset": "FARTCOIN",
-          "qty": 1082.189429,
-          "cost": 1.752415731,
-          "cost_asset": "SOL",
-          "timestamp": 1788605817
-        },
-        {
-          "signature": "QpqKphvp4k47pKnuxXPCiqoaW3H2bhNboUxnbv5azXkpatGmtUAFkcSdvAnpAzWn1Y7HQVFspEHHff9nnqBzfsD",
-          "side": "BUY",
-          "asset": "FARTCOIN",
-          "qty": 1082.146147,
-          "cost": 1.75258195,
-          "cost_asset": "SOL",
-          "timestamp": 1788605857
-        }
-      ],
+      "trades": [],
       "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 20.2,
-      "protocol_count": 2,
+      "discovery_score": 13.6,
+      "protocol_count": 1,
       "program_activity": {
-        "Jupiter Swap": 2,
-        "Raydium AMM v4": 1
+        "Raydium CPMM": 4
       }
     }
   ]
