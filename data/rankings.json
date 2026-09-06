@@ -1,4 +1,36 @@
 {
-  "generated_at": 1788713069,
-  "wallets": []
+  "generated_at": 1788713889,
+  "wallets": [
+    {
+      "address": "As7HjL7dzzvbRbaD3WCun47robib2kmAKRXMvjHkSMB5",
+      "research_score": 55.6,
+      "transactions_analyzed": 40,
+      "swap_count": 39,
+      "buy_events": 1,
+      "sell_events": 0,
+      "realized_pnl_sol": 0.0,
+      "closed_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "data_source": "Helius Enhanced Transactions",
+      "trades": [
+        {
+          "signature": "dbdxvkPu7MmVoVFPDrFYfQPjSz6836ihuY8ypdSVuH2NhjoWAo5EiaUTtGEgL7iqX3A2nSJwjSikHD7MyqtF6m1",
+          "side": "BUY",
+          "asset": "ARJHWRU7ESK1PIUJJEZC",
+          "qty": 42856479.13238,
+          "cost": 9.9,
+          "cost_asset": "SOL",
+          "timestamp": 1788713853
+        }
+      ],
+      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
+      "discovery_score": 12.2,
+      "protocol_count": 1,
+      "program_activity": {
+        "Pump.fun": 3
+      }
+    }
+  ]
 }
