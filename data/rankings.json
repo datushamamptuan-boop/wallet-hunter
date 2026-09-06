@@ -1,46 +1,44 @@
 {
-  "generated_at": 1788694252,
+  "generated_at": 1788695036,
   "wallets": [
     {
-      "address": "CzYQ2kFnBxsNEt9Zy34vQ3n5fSDhvA4o4XaTnq1rLvyr",
-      "research_score": 40.0,
+      "address": "EDjghonN66F1CPwDNtFoatWKJPsEWzsjTrM7QgVcHeSw",
+      "research_score": 41.2,
       "transactions_analyzed": 40,
-      "swap_count": 0,
+      "swap_count": 3,
       "buy_events": 0,
-      "sell_events": 0,
+      "sell_events": 2,
       "realized_pnl_sol": 0.0,
       "closed_trades": 0,
       "wins": 0,
       "losses": 0,
       "win_rate": null,
       "data_source": "Helius Enhanced Transactions",
-      "trades": [],
+      "trades": [
+        {
+          "signature": "M4dgQUv9KZomGB1Segf2XFPuGQEJXakW6dWJyddGDfXgDA7vK9bEHn8M1r5rEs3NfWDhvLphTfYWhRTnR953sc4",
+          "side": "SELL",
+          "asset": "JUP",
+          "qty": 40.817959,
+          "proceeds": 11.252275,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788694998
+        },
+        {
+          "signature": "Cj2dYJRQKcZULaGR2FKghWqydGemU3sSehE6omus5aQ4EkY6y2rkMUoF3tpVgWn1JrAMGSx5AUnPxgmV8Yy4JxP",
+          "side": "SELL",
+          "asset": "JUP",
+          "qty": 42.467005,
+          "proceeds": 11.705191,
+          "proceeds_asset": "USDC",
+          "timestamp": 1788694998
+        }
+      ],
       "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
       "discovery_score": 13.6,
       "protocol_count": 1,
       "program_activity": {
-        "Raydium AMM v4": 4
-      }
-    },
-    {
-      "address": "66666y3RmL6gNyttNKXNhF5awxAWbBdGSfpKuaTLrjRH",
-      "research_score": 40.0,
-      "transactions_analyzed": 40,
-      "swap_count": 0,
-      "buy_events": 0,
-      "sell_events": 0,
-      "realized_pnl_sol": 0.0,
-      "closed_trades": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "data_source": "Helius Enhanced Transactions",
-      "trades": [],
-      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 12.2,
-      "protocol_count": 1,
-      "program_activity": {
-        "Raydium CPMM": 3
+        "Jupiter Swap": 4
       }
     }
   ]
