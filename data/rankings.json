@@ -1,44 +1,46 @@
 {
-  "generated_at": 1788695036,
+  "generated_at": 1788695851,
   "wallets": [
     {
-      "address": "EDjghonN66F1CPwDNtFoatWKJPsEWzsjTrM7QgVcHeSw",
-      "research_score": 41.2,
+      "address": "Cz9mmvwxcK9iTsiLRm696PuKoZVixXC16ocCzBVQ9vCY",
+      "research_score": 53.2,
       "transactions_analyzed": 40,
-      "swap_count": 3,
+      "swap_count": 33,
       "buy_events": 0,
-      "sell_events": 2,
+      "sell_events": 0,
       "realized_pnl_sol": 0.0,
       "closed_trades": 0,
       "wins": 0,
       "losses": 0,
       "win_rate": null,
       "data_source": "Helius Enhanced Transactions",
-      "trades": [
-        {
-          "signature": "M4dgQUv9KZomGB1Segf2XFPuGQEJXakW6dWJyddGDfXgDA7vK9bEHn8M1r5rEs3NfWDhvLphTfYWhRTnR953sc4",
-          "side": "SELL",
-          "asset": "JUP",
-          "qty": 40.817959,
-          "proceeds": 11.252275,
-          "proceeds_asset": "USDC",
-          "timestamp": 1788694998
-        },
-        {
-          "signature": "Cj2dYJRQKcZULaGR2FKghWqydGemU3sSehE6omus5aQ4EkY6y2rkMUoF3tpVgWn1JrAMGSx5AUnPxgmV8Yy4JxP",
-          "side": "SELL",
-          "asset": "JUP",
-          "qty": 42.467005,
-          "proceeds": 11.705191,
-          "proceeds_asset": "USDC",
-          "timestamp": 1788694998
-        }
-      ],
+      "trades": [],
       "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 13.6,
+      "discovery_score": 9.4,
       "protocol_count": 1,
       "program_activity": {
-        "Jupiter Swap": 4
+        "Pump.fun": 1
+      }
+    },
+    {
+      "address": "Fr9B91h3MrqghrH1pfdw3RTAi34TJckcQMp25EKnXVxo",
+      "research_score": 40.0,
+      "transactions_analyzed": 40,
+      "swap_count": 0,
+      "buy_events": 0,
+      "sell_events": 0,
+      "realized_pnl_sol": 0.0,
+      "closed_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "data_source": "Helius Enhanced Transactions",
+      "trades": [],
+      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
+      "discovery_score": 9.4,
+      "protocol_count": 1,
+      "program_activity": {
+        "Pump.fun": 1
       }
     }
   ]
