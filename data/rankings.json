@@ -1,8 +1,8 @@
 {
-  "generated_at": 1788782394,
+  "generated_at": 1788784057,
   "wallets": [
     {
-      "address": "G5HaBELSmMnYG1oC2w5wce2oHu91TCGn6GtYasfDyvbj",
+      "address": "rLsi2DPwRLovHzLV5XYxa8B597bv8w8nX7fZHJJf8uy",
       "research_score": 42.4,
       "transactions_analyzed": 40,
       "swap_count": 6,
@@ -19,8 +19,57 @@
       "discovery_score": 18.8,
       "protocol_count": 2,
       "program_activity": {
-        "Pump.fun": 1,
-        "Raydium AMM v4": 1
+        "Raydium AMM v4": 1,
+        "Raydium CPMM": 1
+      }
+    },
+    {
+      "address": "8aWoDrZQJfYo6iLJEpMd5SJCzUqRo5n3D4CPhdKaaeGm",
+      "research_score": 24.5,
+      "transactions_analyzed": 40,
+      "swap_count": 5,
+      "buy_events": 1,
+      "sell_events": 2,
+      "realized_pnl_sol": -0.006072,
+      "closed_trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "win_rate": 0.0,
+      "data_source": "Helius Enhanced Transactions",
+      "trades": [
+        {
+          "signature": "3mv7RBvFT2EHZeqEqYrcxXK4R8WDmfthhHzfpTZgVWf21gp4bDxkcnV5x9UTu2S8zJvEJuB79gurBDQEgGm3Pw5s",
+          "side": "BUY",
+          "asset": "FVPJOYRVVRSAHCO8AYXQ",
+          "qty": 92847.602638,
+          "cost": 0.014291088,
+          "cost_asset": "SOL",
+          "timestamp": 1788736840
+        },
+        {
+          "signature": "5kCkzsUXeuGWahF8NtyYcAEYoK4mVmfuF9Qp4fnabjqXVeCFjGr1MHBcnf1kFWXgqjgPCrGo4Um64VNg7Np41Vri",
+          "side": "SELL",
+          "asset": "FVPJOYRVVRSAHCO8AYXQ",
+          "qty": 91919.126611,
+          "proceeds": 0.008076157,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788736868
+        },
+        {
+          "signature": "nLQdLYKmceE2aELzPS8EH3779n5ioZog5rHAeKUgUkVRmTAQPD5oaQjK8RJ351TPF2JYBQStG1qpjhu9UYcdxZU",
+          "side": "SELL",
+          "asset": "ZEC",
+          "qty": 0.00017765,
+          "proceeds": 0.002057734,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788739357
+        }
+      ],
+      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
+      "discovery_score": 9.4,
+      "protocol_count": 1,
+      "program_activity": {
+        "Pump.fun": 1
       }
     }
   ]
