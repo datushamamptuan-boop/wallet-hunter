@@ -1,4 +1,45 @@
 {
-  "generated_at": 1788824623,
-  "wallets": []
+  "generated_at": 1788825467,
+  "wallets": [
+    {
+      "address": "3XeFcZKSn8WzqoDAm5vvgbdfkU82rMmhJfp1q4LXtnX6",
+      "research_score": 23.0,
+      "transactions_analyzed": 40,
+      "swap_count": 2,
+      "buy_events": 1,
+      "sell_events": 1,
+      "realized_pnl_sol": -0.072442,
+      "closed_trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "win_rate": 0.0,
+      "data_source": "Helius Enhanced Transactions",
+      "trades": [
+        {
+          "signature": "5otfDaqZiYHw7ksRWcG4MBtSDRzQYsaKhePvJ5hCScZtVe5Ynf11oDnTgGdBK1kqQLc6vAgfbynUXdRXXMVSzhVS",
+          "side": "BUY",
+          "asset": "4NSFWWUATBWYVRXCDNNS",
+          "qty": 5196730.451305,
+          "cost": 0.95940156,
+          "cost_asset": "SOL",
+          "timestamp": 1788825071
+        },
+        {
+          "signature": "asXLUt6FEfgyJYAX8AJMfDxBwFEHA6zaTbUFZfFXDokgNMX8k5q42fqUFRCkqSHs8zGhQiSUzjsBXrxeYALCePL",
+          "side": "SELL",
+          "asset": "4NSFWWUATBWYVRXCDNNS",
+          "qty": 5144763.146791,
+          "proceeds": 0.877365938,
+          "proceeds_asset": "SOL",
+          "timestamp": 1788825100
+        }
+      ],
+      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
+      "discovery_score": 10.8,
+      "protocol_count": 1,
+      "program_activity": {
+        "Raydium AMM v4": 2
+      }
+    }
+  ]
 }
