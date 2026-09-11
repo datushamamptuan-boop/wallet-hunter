@@ -1,11 +1,11 @@
 {
-  "generated_at": 1789145329,
+  "generated_at": 1789145896,
   "wallets": [
     {
-      "address": "Gygj9QQby4j2jryqyqBHvLP7ctv2SaANgh4sCb69BUpA",
-      "research_score": 54.4,
+      "address": "7ecixmoFG3YPJMPc94KPrGCpUQVemT6MgjG6eFtb96P8",
+      "research_score": 56.0,
       "transactions_analyzed": 40,
-      "swap_count": 36,
+      "swap_count": 40,
       "buy_events": 0,
       "sell_events": 0,
       "realized_pnl_sol": 0.0,
@@ -16,10 +16,68 @@
       "data_source": "Helius Enhanced Transactions",
       "trades": [],
       "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 12.2,
+      "discovery_score": 9.4,
       "protocol_count": 1,
       "program_activity": {
-        "Pump.fun": 3
+        "Pump.fun": 1
+      }
+    },
+    {
+      "address": "4iDyxGxPRC66QBNwYqMn74VtVm5Moy1ns4w3bAqYGvRG",
+      "research_score": 30.6,
+      "transactions_analyzed": 40,
+      "swap_count": 21,
+      "buy_events": 2,
+      "sell_events": 2,
+      "realized_pnl_sol": -0.056112,
+      "closed_trades": 2,
+      "wins": 0,
+      "losses": 2,
+      "win_rate": 0.0,
+      "data_source": "Helius Enhanced Transactions",
+      "trades": [
+        {
+          "signature": "5v8c9DQA2CCDUbfSrvrF55JCNKeudS9TEnKmJKbaseaXECCMqy9g6zXQFJNNPX4TU9AwhHhf3KvgTJcBBybHNJ1M",
+          "side": "BUY",
+          "asset": "S500",
+          "qty": 1408595.064644767,
+          "cost": 0.2475,
+          "cost_asset": "SOL",
+          "timestamp": 1789140477
+        },
+        {
+          "signature": "nEtpkDw5zxEjtDx7TwFrcGgs7edCDi8aJn7v9YJuZc7SJh2YiotPyqri67de1fcxCP25jhxjVdvnC35b3gY1B94",
+          "side": "SELL",
+          "asset": "S500",
+          "qty": 2454589.218786011,
+          "proceeds": 0.209667707,
+          "proceeds_asset": "SOL",
+          "timestamp": 1789140659
+        },
+        {
+          "signature": "4Sxf7CgRj4JXxJJPzrEUz7nsnEKvcFiYZ8eCfBNNrxYaHMVQWe1rvkLJTfrnJiYHPELZ1Jiabva6AiKVUMBcKyiU",
+          "side": "BUY",
+          "asset": "GRB",
+          "qty": 437261.580748897,
+          "cost": 0.0495,
+          "cost_asset": "SOL",
+          "timestamp": 1789145559
+        },
+        {
+          "signature": "3CpNTkbKFthY9B2XJYQZ585yz1Qje9EuZ8p9ACJmZiqgDtiyYo1LsfE8Ut2tbHSvbvEb88GMxd8MT9kdSE1jT3L5",
+          "side": "SELL",
+          "asset": "GRB",
+          "qty": 437261.580748897,
+          "proceeds": 0.031220612,
+          "proceeds_asset": "SOL",
+          "timestamp": 1789145695
+        }
+      ],
+      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
+      "discovery_score": 9.4,
+      "protocol_count": 1,
+      "program_activity": {
+        "Pump.fun": 1
       }
     }
   ]
