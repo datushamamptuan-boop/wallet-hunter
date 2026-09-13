@@ -1,8 +1,85 @@
 {
-  "generated_at": 1789318649,
+  "generated_at": 1789319903,
   "wallets": [
     {
-      "address": "FireuLYd4yjJBhXQyBs3Mq6ZpNEjyHPNPG2eqhTP9RHV",
+      "address": "6hwmxXVwcDR6Kjvww19ViNz9SbgJobBuCCaD9zrmpBA2",
+      "research_score": 42.8,
+      "transactions_analyzed": 40,
+      "swap_count": 7,
+      "buy_events": 3,
+      "sell_events": 3,
+      "realized_pnl_sol": 0.0,
+      "closed_trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": null,
+      "data_source": "Helius Enhanced Transactions",
+      "trades": [
+        {
+          "signature": "3LQHhhJoyqGRHevMnaMML8pM6R2WF1WJ7o2YKmUN1W5sxMZ3SUrTwu89ebDUtesoufkWkWCc2idyhVPyACZ1srEZ",
+          "side": "SELL",
+          "asset": "JUP",
+          "qty": 3.0,
+          "proceeds": 0.0057003,
+          "proceeds_asset": "SOL",
+          "timestamp": 1761136959
+        },
+        {
+          "signature": "2vh1o9GP3npgjmZ7caKqC4u17vfVDkwdR4vfvu2kAx2qhp14mbSJKFg9G9DrsjeY4S7xCVBBsL78jqAUca9fth2N",
+          "side": "SELL",
+          "asset": "JUP",
+          "qty": 8.0,
+          "proceeds": 2.75423,
+          "proceeds_asset": "USDC",
+          "timestamp": 1762889565
+        },
+        {
+          "signature": "3VYDgd8UbEX5fi8ZsEF7D72KnsQLbCdDGfZFsSfexS7ZAnu8CM6m1Nb7m5PGotbeV6DadXFKVrCpgBD5BVXbA2tH",
+          "side": "SELL",
+          "asset": "JUP",
+          "qty": 8.0,
+          "proceeds": 2.755118,
+          "proceeds_asset": "USDC",
+          "timestamp": 1762889586
+        },
+        {
+          "signature": "4cASs4c3EjrbB8A1vErGZoBW6GWnM4pMC87JNCxUVyhAUz5uTp2rmLimcRWux7pZgsTGPvRHjZgwNwgjr5C4UJDh",
+          "side": "BUY",
+          "asset": "JUP",
+          "qty": 21.307344,
+          "cost": 5.1,
+          "cost_asset": "USDC",
+          "timestamp": 1764945014
+        },
+        {
+          "signature": "2hRnRrDLwWCCDgnoNk4qgESYYYCJtyYy4vjMGFADgGw3MzgFjXuE3GkcsmWHMiLXDXgZR9evEBVqxAzkKvmePR6C",
+          "side": "BUY",
+          "asset": "JUP",
+          "qty": 901.875901,
+          "cost": 201.18429,
+          "cost_asset": "USDC",
+          "timestamp": 1789064203
+        },
+        {
+          "signature": "46FHXcna64BbVqxUPWBR83XRK1A79nKKUMvJ5KSZQYzmjqACHrF4F1aZT1c7tcQJvEqaa2YHvLKRGP2pJpjYKpUN",
+          "side": "BUY",
+          "asset": "JUP",
+          "qty": 686.361987,
+          "cost": 222.056644,
+          "cost_asset": "USDC",
+          "timestamp": 1789319856
+        }
+      ],
+      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
+      "discovery_score": 18.8,
+      "protocol_count": 2,
+      "program_activity": {
+        "Jupiter Swap": 1,
+        "Raydium AMM v4": 1
+      }
+    },
+    {
+      "address": "AXmnRBrNtYYyyo82cLBBhnWJ7o1iqNLZbuEVpDB3V666",
       "research_score": 40.0,
       "transactions_analyzed": 40,
       "swap_count": 0,
@@ -16,10 +93,10 @@
       "data_source": "Helius Enhanced Transactions",
       "trades": [],
       "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 12.2,
+      "discovery_score": 13.6,
       "protocol_count": 1,
       "program_activity": {
-        "Raydium CPMM": 3
+        "Raydium CPMM": 4
       }
     }
   ]
