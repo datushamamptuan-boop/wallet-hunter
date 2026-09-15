@@ -1,46 +1,53 @@
 {
-  "generated_at": 1789510803,
+  "generated_at": 1789511569,
   "wallets": [
     {
-      "address": "AjkDC1KdkgPaFRtrCbeSh6B6dhVX2JM4o2XhPSs2qu4b",
-      "research_score": 40.0,
+      "address": "CBFB4dhq5wLvbYFoemedBNnxqV8pxarANtTMWr8Zb7Cu",
+      "research_score": 41.6,
       "transactions_analyzed": 40,
-      "swap_count": 0,
-      "buy_events": 0,
-      "sell_events": 0,
+      "swap_count": 4,
+      "buy_events": 2,
+      "sell_events": 1,
       "realized_pnl_sol": 0.0,
       "closed_trades": 0,
       "wins": 0,
       "losses": 0,
       "win_rate": null,
       "data_source": "Helius Enhanced Transactions",
-      "trades": [],
-      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 16.4,
-      "protocol_count": 1,
-      "program_activity": {
-        "Raydium CPMM": 6
-      }
-    },
-    {
-      "address": "327677XqTEwYxo8kaQxAJUWvUvzpVoSjiMXMc8u4wQS6",
-      "research_score": 40.0,
-      "transactions_analyzed": 40,
-      "swap_count": 0,
-      "buy_events": 0,
-      "sell_events": 0,
-      "realized_pnl_sol": 0.0,
-      "closed_trades": 0,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": null,
-      "data_source": "Helius Enhanced Transactions",
-      "trades": [],
+      "trades": [
+        {
+          "signature": "vFdDWo37hVCHwQjQjVEdQT6MubJnRpRtBjaiVppDNJBy4TcBsk6YaZGuFJoAg2Wn3oyo46bPti7fDhAVGaofigy",
+          "side": "BUY",
+          "asset": "JITOSOL",
+          "qty": 0.356708501,
+          "cost": 44.92174,
+          "cost_asset": "USDC",
+          "timestamp": 1789511365
+        },
+        {
+          "signature": "UifD1LuzTssuy5aXEWEHme2tRmzvJL53af1rZahgnniswiQ49amnJn3jrckvzxWPbmqjY8Vm7hz7k81HXiTNoRS",
+          "side": "SELL",
+          "asset": "CBBTC",
+          "qty": 0.00352215,
+          "proceeds": 265.723672,
+          "proceeds_asset": "USDC",
+          "timestamp": 1789511375
+        },
+        {
+          "signature": "dz632rRCTLTf8j9rhQXm8btqypqKfFqzjP25bLx2Mfn5mLDn5rRfT7ohwUhaN3kiC8W86kNdUj9wCUZmceiDykW",
+          "side": "BUY",
+          "asset": "JLP",
+          "qty": 13.660993,
+          "cost": 58.738567,
+          "cost_asset": "USDC",
+          "timestamp": 1789511449
+        }
+      ],
       "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
       "discovery_score": 12.2,
       "protocol_count": 1,
       "program_activity": {
-        "Raydium AMM v4": 3
+        "Jupiter Swap": 3
       }
     }
   ]
