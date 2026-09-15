@@ -1,8 +1,8 @@
 {
-  "generated_at": 1789448423,
+  "generated_at": 1789449714,
   "wallets": [
     {
-      "address": "Luckywzbt7nYBhmEZLnzqAsQmRE8bMmgyduxsP5kktR",
+      "address": "AjkDC1KdkgPaFRtrCbeSh6B6dhVX2JM4o2XhPSs2qu4b",
       "research_score": 40.0,
       "transactions_analyzed": 40,
       "swap_count": 0,
@@ -16,51 +16,10 @@
       "data_source": "Helius Enhanced Transactions",
       "trades": [],
       "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 12.2,
+      "discovery_score": 13.6,
       "protocol_count": 1,
       "program_activity": {
-        "Raydium AMM v4": 3
-      }
-    },
-    {
-      "address": "AScg6mbjt8PcSrtqBycL6mktcnFyT3TtRdpkPfPNFqgK",
-      "research_score": 35.7,
-      "transactions_analyzed": 40,
-      "swap_count": 33,
-      "buy_events": 1,
-      "sell_events": 1,
-      "realized_pnl_sol": -0.00872,
-      "closed_trades": 1,
-      "wins": 0,
-      "losses": 1,
-      "win_rate": 0.0,
-      "data_source": "Helius Enhanced Transactions",
-      "trades": [
-        {
-          "signature": "GBxKZEBqUWzTUrhmDvU1JbGaRpWD1FAGMzRQUn4V47WXqtSBphfgLt72FhvYPPVdwkPv2nvB6LUid1TnBeGv1xz",
-          "side": "BUY",
-          "asset": "HBZPSIQQXKBL8SV7JTZD",
-          "qty": 4177122.545357,
-          "cost": 0.25,
-          "cost_asset": "SOL",
-          "timestamp": 1789448166
-        },
-        {
-          "signature": "fUFVuPaFUyjiY2ycsj5VPpvevadvDd9Lev7wqMk4ChNep7aEofjTqje2pfnVNXs5zDPiDFv2wBufkTQ1UoWcPPf",
-          "side": "SELL",
-          "asset": "HBZPSIQQXKBL8SV7JTZD",
-          "qty": 4177122.545357,
-          "proceeds": 0.241280068,
-          "proceeds_asset": "SOL",
-          "timestamp": 1789448356
-        }
-      ],
-      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 18.8,
-      "protocol_count": 2,
-      "program_activity": {
-        "Pump.fun": 1,
-        "Jupiter Swap": 1
+        "Raydium CPMM": 4
       }
     }
   ]
