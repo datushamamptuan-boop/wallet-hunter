@@ -1,8 +1,8 @@
 {
-  "generated_at": 1789582989,
+  "generated_at": 1789584520,
   "wallets": [
     {
-      "address": "4YP7YJFDpjJ9DePSH64ouj8cs52CZip7UfCbGBK98Nyg",
+      "address": "6LgYz8CNn5EWt45jN2SZ33VZQbULRRvRNAzTvWzt2j7v",
       "research_score": 40.0,
       "transactions_analyzed": 40,
       "swap_count": 0,
@@ -16,50 +16,11 @@
       "data_source": "Helius Enhanced Transactions",
       "trades": [],
       "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 13.6,
-      "protocol_count": 1,
+      "discovery_score": 18.8,
+      "protocol_count": 2,
       "program_activity": {
-        "Raydium AMM v4": 4
-      }
-    },
-    {
-      "address": "5A5uE73rZzLY6jVkvywwyuJ6x6yEouBCrK3mcFjL3Ljs",
-      "research_score": 23.7,
-      "transactions_analyzed": 40,
-      "swap_count": 3,
-      "buy_events": 1,
-      "sell_events": 1,
-      "realized_pnl_sol": -0.000547,
-      "closed_trades": 1,
-      "wins": 0,
-      "losses": 1,
-      "win_rate": 0.0,
-      "data_source": "Helius Enhanced Transactions",
-      "trades": [
-        {
-          "signature": "71r77ZnNhuiDgARsaahqFgpyY5szPAwtGPGM1CRvErRbBENuZENPramcUgJVwyJLnf1p7S5wKzyDUZTnxcunJUR",
-          "side": "BUY",
-          "asset": "2JSKNQ2Z1ZKKY2IG5XS8",
-          "qty": 7700.309341,
-          "cost": 0.001,
-          "cost_asset": "SOL",
-          "timestamp": 1789576682
-        },
-        {
-          "signature": "3LZj4iZdAb5Hu3RzyKAyF2RduACZav56wrYarxAebyMKZHLEhzWHU5AvxwFaSXtqDJpBbp7kjkk5Nyfx575ABCZX",
-          "side": "SELL",
-          "asset": "2JSKNQ2Z1ZKKY2IG5XS8",
-          "qty": 7700.309341,
-          "proceeds": 0.000453415,
-          "proceeds_asset": "SOL",
-          "timestamp": 1789576692
-        }
-      ],
-      "note": "PnL is realized SOL PnL. Win rate includes successfully matched SOL/USDC/USDT closed trades.",
-      "discovery_score": 9.4,
-      "protocol_count": 1,
-      "program_activity": {
-        "Pump.fun": 1
+        "Jupiter Swap": 1,
+        "Raydium AMM v4": 1
       }
     }
   ]
